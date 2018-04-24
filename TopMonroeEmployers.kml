@@ -1,0 +1,5130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Top Monroe Employers</name>
+    <description/>
+    <Style id="icon-1899-000000-normal">
+      <IconStyle>
+        <color>ff000000</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1899-000000-highlight">
+      <IconStyle>
+        <color>ff000000</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1899-000000">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1899-000000-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1899-000000-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1899-000000-nodesc-normal">
+      <IconStyle>
+        <color>ff000000</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-1899-000000-nodesc-highlight">
+      <IconStyle>
+        <color>ff000000</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-1899-000000-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1899-000000-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1899-000000-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1899-0288D1-normal">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1899-0288D1-highlight">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1899-0288D1">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1899-0288D1-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1899-0288D1-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1899-0288D1-nodesc-normal">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-1899-0288D1-nodesc-highlight">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-1899-0288D1-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1899-0288D1-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1899-0288D1-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1899-1A237E-normal">
+      <IconStyle>
+        <color>ff7e231a</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1899-1A237E-highlight">
+      <IconStyle>
+        <color>ff7e231a</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1899-1A237E">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1899-1A237E-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1899-1A237E-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1899-1A237E-nodesc-normal">
+      <IconStyle>
+        <color>ff7e231a</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-1899-1A237E-nodesc-highlight">
+      <IconStyle>
+        <color>ff7e231a</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-1899-1A237E-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1899-1A237E-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1899-1A237E-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1899-7CB342-normal">
+      <IconStyle>
+        <color>ff42b37c</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1899-7CB342-highlight">
+      <IconStyle>
+        <color>ff42b37c</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1899-7CB342">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1899-7CB342-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1899-7CB342-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1899-7CB342-nodesc-normal">
+      <IconStyle>
+        <color>ff42b37c</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-1899-7CB342-nodesc-highlight">
+      <IconStyle>
+        <color>ff42b37c</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-1899-7CB342-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1899-7CB342-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1899-7CB342-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1899-9C27B0-normal">
+      <IconStyle>
+        <color>ffb0279c</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1899-9C27B0-highlight">
+      <IconStyle>
+        <color>ffb0279c</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1899-9C27B0">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1899-9C27B0-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1899-9C27B0-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1899-9C27B0-nodesc-normal">
+      <IconStyle>
+        <color>ffb0279c</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-1899-9C27B0-nodesc-highlight">
+      <IconStyle>
+        <color>ffb0279c</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-1899-9C27B0-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1899-9C27B0-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1899-9C27B0-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1899-A52714-normal">
+      <IconStyle>
+        <color>ff1427a5</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1899-A52714-highlight">
+      <IconStyle>
+        <color>ff1427a5</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1899-A52714">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1899-A52714-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1899-A52714-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1899-A52714-nodesc-normal">
+      <IconStyle>
+        <color>ff1427a5</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-1899-A52714-nodesc-highlight">
+      <IconStyle>
+        <color>ff1427a5</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-1899-A52714-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1899-A52714-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1899-A52714-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1899-F57C00-normal">
+      <IconStyle>
+        <color>ff007cf5</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1899-F57C00-highlight">
+      <IconStyle>
+        <color>ff007cf5</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1899-F57C00">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1899-F57C00-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1899-F57C00-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1899-F9A825-normal">
+      <IconStyle>
+        <color>ff25a8f9</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1899-F9A825-highlight">
+      <IconStyle>
+        <color>ff25a8f9</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1899-F9A825">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1899-F9A825-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1899-F9A825-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1899-F9A825-nodesc-normal">
+      <IconStyle>
+        <color>ff25a8f9</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-1899-F9A825-nodesc-highlight">
+      <IconStyle>
+        <color>ff25a8f9</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-1899-F9A825-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1899-F9A825-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1899-F9A825-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1899-FF5252-normal">
+      <IconStyle>
+        <color>ff5252ff</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1899-FF5252-highlight">
+      <IconStyle>
+        <color>ff5252ff</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1899-FF5252">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1899-FF5252-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1899-FF5252-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1899-FF5252-nodesc-normal">
+      <IconStyle>
+        <color>ff5252ff</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-1899-FF5252-nodesc-highlight">
+      <IconStyle>
+        <color>ff5252ff</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-1899-FF5252-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1899-FF5252-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1899-FF5252-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1899-FFD600-normal">
+      <IconStyle>
+        <color>ff00d6ff</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1899-FFD600-highlight">
+      <IconStyle>
+        <color>ff00d6ff</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1899-FFD600">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1899-FFD600-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1899-FFD600-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1899-FFEA00-normal">
+      <IconStyle>
+        <color>ff00eaff</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1899-FFEA00-highlight">
+      <IconStyle>
+        <color>ff00eaff</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1899-FFEA00">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1899-FFEA00-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1899-FFEA00-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1899-FFEA00-nodesc-normal">
+      <IconStyle>
+        <color>ff00eaff</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-1899-FFEA00-nodesc-highlight">
+      <IconStyle>
+        <color>ff00eaff</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-1899-FFEA00-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1899-FFEA00-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1899-FFEA00-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="poly-000000-1200-77-normal">
+      <LineStyle>
+        <color>ff000000</color>
+        <width>1.2</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>4d000000</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <Style id="poly-000000-1200-77-highlight">
+      <LineStyle>
+        <color>ff000000</color>
+        <width>1.8</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>4d000000</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <StyleMap id="poly-000000-1200-77">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#poly-000000-1200-77-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#poly-000000-1200-77-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="poly-000000-1812-46-normal">
+      <LineStyle>
+        <color>ff000000</color>
+        <width>1.812</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>2e000000</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <Style id="poly-000000-1812-46-highlight">
+      <LineStyle>
+        <color>ff000000</color>
+        <width>2.718</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>2e000000</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <StyleMap id="poly-000000-1812-46">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#poly-000000-1812-46-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#poly-000000-1812-46-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>Top 25 Employers</name>
+      <Placemark>
+        <name>Tobyhanna Army Depot</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -75.4204973,41.1870927,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Sanofi Pasteur</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -75.3239724,41.0912136,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pocono Medical</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -75.1617505,41.008858,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Mt. Airy Casino Resort</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -75.3217218,41.1132333,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Walmart Distribution Center</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -75.4050018,41.1605665,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pocono Mountain East Campus</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -75.3260086,41.1017002,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pocono Mountain West Campus</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -75.4262788,41.1098031,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Splash Down Safari</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -75.3919925,41.09907,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>FedEx Freight</name>
+        <description>174 Fedex Dr, Pocono Summit, PA 18346</description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            -75.4091692,41.1057835,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>East Stroudsburg Senior High School North</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -75.0182612,41.1776366,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>East Stroudsburg Senior High School South</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -75.1859101,41.0062732,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Stroudsburg Area High School</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -75.2044451,40.9836698,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>East Stroudsburg University </name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -75.1735992,40.9970236,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Weis Brodheadsville</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -75.4200535,40.9163705,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Great Wolf Lodge</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -75.3217218,41.0596019,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Camelback Resorts</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -75.3550089,41.0518491,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Locust Ridge Quarry</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -75.5601829,41.1345645,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>209 Enterprises</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -75.1292185,41.0199631,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Weiler Corp</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -75.2786713,41.156906,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>FedEx Supply Chain (formerly GENCO Distribution Center)</name>
+        <description>2086 Corporate Center Dr W, Coolbaugh Township, PA 18466</description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            -75.3783101,41.1436006,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Home Depot and Stroudsburg Middle School</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -75.2428293,40.9958038,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pleasant Valley Manor</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -75.2872639,40.948405,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>United Envelope Corporation</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -75.378218,41.1270558,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Skytop Lodge</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -75.2382777,41.2286804,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Weiler Corporation</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -75.2786712,41.156906,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Shawnee Mountain Ski Area</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -75.085262,41.039612,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pleasant Valley High School and Middle School</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -75.402877,40.922367,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pleasant Valley Elementary and Intermediate </name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -75.4711684,40.9127843,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Smithfield Township Municipal Center</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -75.1283241,41.0345153,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Middle Smithfield Township Office</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -75.0758062,41.0647825,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Chestnuthill Township Municipal Building</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -75.391673,40.933797,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Stroudsburg Borough</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -75.1955287,40.9873818,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Stroud Township</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -75.2128996,41.0116555,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Ross Township Municipal Building</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -75.3303464,40.8972149,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>East Stroudsburg Municipal Building</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -75.1818768,40.9993417,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Price Twp Supervisors</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -75.1881292,41.0837615,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Barrett Township Municipal Bldg</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -75.2716979,41.1717473,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Eldred Township Municipal</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -75.4573749,40.8477919,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Paradise Township Public Works Dept</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -75.2847488,41.12465,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Polk Township Municipal</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -75.4952955,40.9052264,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Coolbaugh Twp Zoning Office</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -75.4064863,41.1708797,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Mount Pocono Borough</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -75.3576716,41.1234653,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pocono Township Municipal Building</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -75.3057218,41.037267,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Tobyhanna Township Government Center</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -75.4677486,41.1029783,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Jackson Township Municipal Building </name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -75.3362302,41.0182365,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Tunkhannock Township Office</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -75.4860131,41.0622767,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Hamilton Township Municipal</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -75.3193074,40.9298962,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Daycares</name>
+      <Placemark>
+        <name>Countryside Pre-School and Child Care Center Inc</name>
+        <description><![CDATA[Age: 6 weeks - Pre K<br>Phone #: 5705959477<br>Hours: 6am - 6pm (M-F)<br>Capacity:53<br>Star Rating:1 Star<br>Monthly Estimate:$824/month]]></description>
+        <styleUrl>#icon-1899-A52714</styleUrl>
+        <Point>
+          <coordinates>
+            -75.2695393,41.1828051,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>ABC Day Care (DOUGHERTY INC) 
+</name>
+        <description><![CDATA[Age: 4 weeks - 12 years<br>Phone #: 5704766923<br>Hours: 6am - 6pm<br>Capacity: 89<br>Star Rating: 1 Star<br>Monthly Estimate: $600/ month]]></description>
+        <styleUrl>#icon-1899-A52714</styleUrl>
+        <Point>
+          <coordinates>
+            -75.1510068,41.0030039,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Gingerbread Manor Childcare and Learning Center</name>
+        <description><![CDATA[Age: NOT SPECIFIED<br>Phone #: 5709925437<br>Hours: 6:30am to 6:30pm<br>Capacity: 24<br>Star Rating: 1 star<br>Monthly Estimate: $756/ month]]></description>
+        <styleUrl>#icon-1899-A52714</styleUrl>
+        <Point>
+          <coordinates>
+            -75.3466772,40.9251897,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>A-Z Learning Daycare LLC</name>
+        <description><![CDATA[Age: 1-12 years<br>Phone #: 5703919572<br>Hours: 5:30am - 6pm<br>Capacity: 88<br>Star Rating: 1 Star<br>Monthly Estimate: $900/ month]]></description>
+        <styleUrl>#icon-1899-A52714</styleUrl>
+        <Point>
+          <coordinates>
+            -75.3632824,41.1327995,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Stroudsburg Wesleyan Church</name>
+        <description><![CDATA[Age: K - 6th grade<br>Phone #:5704200706<br>Hours: 8:30am - 3:15pm<br>Capacity:127<br>Star Rating: 1 Star<br>Monthly Estimate: $520/ month]]></description>
+        <styleUrl>#icon-1899-A52714</styleUrl>
+        <Point>
+          <coordinates>
+            -75.1954504,40.9983721,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Dekontee Christian Day Care 
+</name>
+        <description><![CDATA[Age: 0 - PreK<br>Phone #: 5704212942<br>Hours: 6am to 6pm<br>Capacity: 30<br>Star Rating: 2 Star<br>Monthly Estimate: $600/ month]]></description>
+        <styleUrl>#icon-1899-A52714</styleUrl>
+        <Point>
+          <coordinates>
+            -75.1600778,41.0297081,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Nurturing Arms Inc</name>
+        <description><![CDATA[Age: 3 weeks - 15 years<br>Phone #: 5709729814<br>Hours: 4:00am - 9:00pm M-F, Sat: 7:00am - 5:00pm<br>Capacity: 42<br>Star Rating: 1 Star<br>Monthly Estimate: $825/ month]]></description>
+        <styleUrl>#icon-1899-A52714</styleUrl>
+        <Point>
+          <coordinates>
+            -75.3560496,41.1845925,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pocono Family YMCA</name>
+        <description><![CDATA[Age: 6 weeks - 8th grade<br>Phone #: 5708158495<br>Hours: 6:30am - 6:30pm (M-F)<br>Capacity: 999<br>Star Rating: 1 Star<br>Monthly Estimate: Member: $900/month   Non-member: $1800/month]]></description>
+        <styleUrl>#icon-1899-A52714</styleUrl>
+        <Point>
+          <coordinates>
+            -75.196715,40.984117,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Stepping Stones Preschool/ Childcare Inc</name>
+        <description><![CDATA[Age: 0-12years<br>Phone #: 5707224679<br>Hours: 6:00am-6:00pm<br>Capacity: 40<br>Star Rating: 1 Star<br>Monthly Estimate: $630/month]]></description>
+        <styleUrl>#icon-1899-A52714</styleUrl>
+        <Point>
+          <coordinates>
+            -75.2618318,40.9988682,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Wee Wons Inc</name>
+        <description><![CDATA[Age: walking - school age (3 month -12 years?)<br>Phone #: 5706466500<br>Hours: 7am to 6pm<br>Capacity: 59<br>Star Rating: 4 star<br>Monthly Estimate: NOT SPECIFIED]]></description>
+        <styleUrl>#icon-1899-A52714</styleUrl>
+        <Point>
+          <coordinates>
+            -75.4705662,41.1062901,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Grow & Learn Daycare, LLC]]></name>
+        <description><![CDATA[Age: 0-12 years<br>Phone #: 5702419165<br>Hours: 6:00am-6:00pm M-F<br>Capacity: 155<br>Star Rating: NOT SPECIFIED<br>Monthly Estimate: $600/ month]]></description>
+        <styleUrl>#icon-1899-A52714</styleUrl>
+        <Point>
+          <coordinates>
+            -75.3575234,41.1701471,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>What About Me Childcare Services</name>
+        <description><![CDATA[Age: 0-3rd<br>Phone number:5708393148<br>Hours:6:30am-6:00pm M-F<br>Capacity: 116<br>Star rating:1 Star<br>Monthly estimate:$600]]></description>
+        <styleUrl>#icon-1899-A52714</styleUrl>
+        <Point>
+          <coordinates>
+            -75.313674,41.101931,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Miss Marie's Luv 'N Care]]></name>
+        <description><![CDATA[Age:0-12 years<br>Phone number:5707301105<br>Hours: 6:00am-6:00pm M-F<br>Capacity:19<br>Star rating:1 Star<br>Monthly estimate: NOT DETERMINED]]></description>
+        <styleUrl>#icon-1899-A52714</styleUrl>
+        <Point>
+          <coordinates>
+            -75.2630138,41.0566142,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Northampton Community College</name>
+        <description><![CDATA[Age: 6 weeks to kindergarten entry<br>Phone #: 5703691861<br>Hours: 7:30am - 6pm (M-F)<br>Capacity: 59<br>Star Rating: 4 Star<br>Monthly Estimate: NOT SPECIFIED ]]></description>
+        <styleUrl>#icon-1899-A52714</styleUrl>
+        <Point>
+          <coordinates>
+            -75.3249697,41.0317555,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Tiny Toes Learning Center</name>
+        <description><![CDATA[Age: School Age<br>Phone number:5705802012<br>Hours: 24 hours<br>Capacity:57<br>Star rating:1 Star<br>Monthly estimate: NOT DETERMINED]]></description>
+        <styleUrl>#icon-1899-A52714</styleUrl>
+        <Point>
+          <coordinates>
+            -75.3468299,41.2224652,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>The LadyBug Learning Center( Home Daycare )</name>
+        <description><![CDATA[Age:0-12 years<br>Phone number: 5708017790<br>Hours:6:00am-8:00pm M-Sa<br>Capacity:27<br>Star rating:1 Star<br>Monthly estimate: 1420]]></description>
+        <styleUrl>#icon-1899-A52714</styleUrl>
+        <Point>
+          <coordinates>
+            -75.1903339,40.993477,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Good Start Academy</name>
+        <description><![CDATA[Age: 6 weeks to Pre-K<br>Phone #: 5704242750<br>Hours: 7:30am - 4:30 pm (M-F)<br>Capacity: 47<br>Star Rating: 3 Star<br>Monthly Estimate: $735/month]]></description>
+        <styleUrl>#icon-1899-A52714</styleUrl>
+        <Point>
+          <coordinates>
+            -75.2437627,40.9750802,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pocono Mountain Kids Village LLC</name>
+        <styleUrl>#icon-1899-A52714-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -75.3591629,41.1241699,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[St John's Lutheran Church]]></name>
+        <styleUrl>#icon-1899-A52714-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -75.1986023,40.9849536,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>TCELC LLC</name>
+        <styleUrl>#icon-1899-A52714-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -75.0951969,41.0549867,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Uneeda Gurley</name>
+        <description><![CDATA[Age: NOT DETERMINED<br>Phone number:9177941857<br>Hours: NOT DETERMINED<br>Capacity:56<br>Star rating: NO STARS<br>Monthly estimate: 560]]></description>
+        <styleUrl>#icon-1899-A52714</styleUrl>
+        <Point>
+          <coordinates>
+            -75.5876644,41.1630617,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Ms Mayra's Preschool & Daycare]]></name>
+        <styleUrl>#icon-1899-A52714-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -75.360848,41.1389032,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Roberta Saunders</name>
+        <description><![CDATA[Age:0-12 years<br>Phone number:5708940563<br>Hours: NOT DETERMINED<br>Capacity:172<br>Star rating:1 Star<br>Monthly estimate: NOT DETERMINED]]></description>
+        <styleUrl>#icon-1899-A52714</styleUrl>
+        <Point>
+          <coordinates>
+            -75.368216,41.218707,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Karen Furler</name>
+        <description><![CDATA[Age:0-12 years<br>Phone number:6103817311<br>Hours:6:00am-6:00pm<br>Capacity:28<br>Star rating:1 Star<br>Monthly estimate: NOT DETERMINED]]></description>
+        <styleUrl>#icon-1899-A52714</styleUrl>
+        <Point>
+          <coordinates>
+            -75.4568444,40.8757925,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Mary Seafross</name>
+        <description><![CDATA[Age:infant- Prek have School Age<br>Phone number:5704764579<br>Hours: NOT DETERMINED<br>Capacity:40<br>Star rating:1 Star<br>Monthly estimate: NOT DETERMINED]]></description>
+        <styleUrl>#icon-1899-A52714</styleUrl>
+        <Point>
+          <coordinates>
+            -75.1782729,41.0049064,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Thomas Family Day care</name>
+        <description><![CDATA[Age:4mths-13 years<br>Phone number:5704219831<br>Hours: NOT DETERMINED<br>Capacity:34<br>Star rating:1 Star<br>Monthly estimate: NOT DETERMINED]]></description>
+        <styleUrl>#icon-1899-A52714</styleUrl>
+        <Point>
+          <coordinates>
+            -75.1893793,41.0039477,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Imagination Land Day Care</name>
+        <styleUrl>#icon-1899-A52714-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -75.3868468,40.9248415,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Linda Branstetter</name>
+        <styleUrl>#icon-1899-A52714-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -75.2475642,40.9999224,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Three Stages Day Care and Learning Corp</name>
+        <styleUrl>#icon-1899-A52714-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -75.3566808,41.1210183,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Ana M Velez</name>
+        <styleUrl>#icon-1899-A52714-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -75.4536759,40.9996171,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Stepping Stones Pre-School and Day Care</name>
+        <styleUrl>#icon-1899-A52714-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -75.2873932,41.1380713,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Tobyhanna Kids Inc</name>
+        <styleUrl>#icon-1899-A52714-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -75.3571149,41.1849818,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Alphabet Express Inc</name>
+        <styleUrl>#icon-1899-A52714-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -75.184775,41.010488,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Kid's Country Inc]]></name>
+        <styleUrl>#icon-1899-A52714-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -75.382798,41.112399,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Miracles 3 Inc</name>
+        <styleUrl>#icon-1899-A52714-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -75.1232966,41.0386509,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Camp Restoration Inc</name>
+        <styleUrl>#icon-1899-A52714-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -75.4359881,41.1019494,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Little Discoveries Day Care</name>
+        <styleUrl>#icon-1899-A52714-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -75.2387425,40.9909996,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>The Growing Place Child Care Center</name>
+        <styleUrl>#icon-1899-A52714-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -75.4017854,40.9236739,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Peace of Mind Childcare</name>
+        <styleUrl>#icon-1899-A52714-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -75.0074562,41.086537,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Allison's Wonderland: Peace of Mind Preschool and Daycare]]></name>
+        <styleUrl>#icon-1899-A52714-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -75.1247343,41.0382614,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Bonnie Maurer</name>
+        <styleUrl>#icon-1899-A52714-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -75.326737,41.029405,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Giggles Learning Academy LLC</name>
+        <styleUrl>#icon-1899-A52714-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -75.3429715,41.1237866,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pocono YMCA at JM Hill Elementary School</name>
+        <styleUrl>#icon-1899-A52714-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -75.1779765,41.0043855,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Amazing Place, LLC</name>
+        <styleUrl>#icon-1899-A52714-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -75.1951599,40.9834711,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pocono Services For Families</name>
+        <styleUrl>#icon-1899-A52714-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -75.186608,41.014877,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pocono Services For Families</name>
+        <styleUrl>#icon-1899-A52714-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -75.4144124,41.1721081,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Poconoski Child Care</name>
+        <styleUrl>#icon-1899-A52714-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -75.1295546,41.0423656,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Tobyhanna Army Depot</name>
+        <styleUrl>#icon-1899-A52714-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -75.4204973,41.1870927,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Little Discoveries</name>
+        <styleUrl>#icon-1899-A52714-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -75.2877328,41.0090991,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[ABC Day Care & Preschool]]></name>
+        <styleUrl>#icon-1899-A52714-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -75.1391639,41.034092,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pocono Kids Daycare and Learning Center</name>
+        <styleUrl>#icon-1899-A52714-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -75.2719838,41.1704688,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>PocoNoski Child care/ Learning center</name>
+        <styleUrl>#icon-1899-A52714-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -75.3800398,41.1193297,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Little Red Barn Early Learning Center</name>
+        <styleUrl>#icon-1899-A52714-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -75.2933509,40.9643973,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>PocoNoski Childcare/Learning center</name>
+        <styleUrl>#icon-1899-A52714-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -75.1289912,41.0419785,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Playtime Learning Center & Child Care Inc.]]></name>
+        <styleUrl>#icon-1899-A52714-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -75.3418612,40.9080174,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Kareema Jackson</name>
+        <styleUrl>#icon-1899-A52714-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -75.4061105,41.103564,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Early Learner's Preschool LLC]]></name>
+        <styleUrl>#icon-1899-A52714-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -75.3452033,40.9103171,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Kelly Ann Finnen</name>
+        <styleUrl>#icon-1899-A52714-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -75.4384557,40.9942326,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Precious Moments Academy</name>
+        <styleUrl>#icon-1899-A52714-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -75.159494,41.029768,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Swiftwater Day Care Center</name>
+        <styleUrl>#icon-1899-A52714-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -75.3244285,41.0954066,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>The Road to Excellence Childcare Learning Center</name>
+        <styleUrl>#icon-1899-A52714-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -75.0703444,41.0624741,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>God Is Love Ministries Inc 
+</name>
+        <styleUrl>#icon-1899-A52714-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -75.3031146,41.0343528,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pat and Bud Inc</name>
+        <styleUrl>#icon-1899-A52714-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -75.185249,40.9944803,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Learning Thru the Arts</name>
+        <styleUrl>#icon-1899-A52714-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -75.2077578,41.016665,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Leilani M Prieto-Torres</name>
+        <styleUrl>#icon-1899-A52714-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -75.23907,41.0299474,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Chrissy's Youth Development Center]]></name>
+        <styleUrl>#icon-1899-A52714-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -75.3607855,41.1365621,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Stages Family Services LLC</name>
+        <styleUrl>#icon-1899-A52714-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -75.3956728,41.1680766,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>The Growing Place at Polk Elementary School</name>
+        <styleUrl>#icon-1899-A52714-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -75.5926914,40.8599918,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Sunny Day Preschool and Daycare, Inc.</name>
+        <styleUrl>#icon-1899-A52714-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -75.1358042,41.0070141,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Sunny Day Preschool and Daycare, Inc</name>
+        <styleUrl>#icon-1899-A52714-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -75.400949,40.977661,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Mekeel Child Care Center</name>
+        <styleUrl>#icon-1899-A52714-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -75.1775826,40.9970042,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Wee Wons</name>
+        <styleUrl>#icon-1899-A52714-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -75.4883324,41.103669,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Donna McNeal</name>
+        <description><![CDATA[Age: 0-13 years<br>Phone number:5704241684<br>Hours: 5:30am-7pm M-Sa<br>Capacity:31<br>Star rating:1 Star<br>Monthly estimate: $520]]></description>
+        <styleUrl>#icon-1899-A52714</styleUrl>
+        <Point>
+          <coordinates>
+            -75.2115662,40.9766739,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Growing Place Child Care Center</name>
+        <styleUrl>#icon-1899-A52714-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -75.4918918,40.9013306,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>TOTALLY FOR KIDS ACADEMY INC  
+</name>
+        <styleUrl>#icon-1899-A52714-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -75.1802539,41.0214495,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Monroe.kml</name>
+      <Placemark>
+        <name>Monroe</name>
+        <description><![CDATA[description: <br> Attributes<br>  STATEFP  42 <br>  COUNTYFP  089 <br>  COUNTYNS  01209184 <br>  AFFGEOID  0500000US42089 <br>  GEOID  42089 <br>  NAME  Monroe <br>  LSAD  06 <br>  ALAND  1575385119 <br>  AWATER  22867226 <br>STATEFP: 42<br>COUNTYFP: 089<br>COUNTYNS: 01209184<br>AFFGEOID: 0500000US42089<br>GEOID: 42089<br>NAME: Monroe<br>LSAD: 06<br>ALAND: 1575385119<br>AWATER: 22867226]]></description>
+        <styleUrl>#poly-000000-1812-46</styleUrl>
+        <ExtendedData>
+          <Data name="description">
+            <value>
+ Attributes
+  STATEFP  42 
+  COUNTYFP  089 
+  COUNTYNS  01209184 
+  AFFGEOID  0500000US42089 
+  GEOID  42089 
+  NAME  Monroe 
+  LSAD  06 
+  ALAND  1575385119 
+  AWATER  22867226 </value>
+          </Data>
+          <Data name="STATEFP">
+            <value>42</value>
+          </Data>
+          <Data name="COUNTYFP">
+            <value>089</value>
+          </Data>
+          <Data name="COUNTYNS">
+            <value>01209184</value>
+          </Data>
+          <Data name="AFFGEOID">
+            <value>0500000US42089</value>
+          </Data>
+          <Data name="GEOID">
+            <value>42089</value>
+          </Data>
+          <Data name="NAME">
+            <value>Monroe</value>
+          </Data>
+          <Data name="LSAD">
+            <value>06</value>
+          </Data>
+          <Data name="ALAND">
+            <value>1575385119</value>
+          </Data>
+          <Data name="AWATER">
+            <value>22867226</value>
+          </Data>
+        </ExtendedData>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <tessellate>1</tessellate>
+              <coordinates>
+                -75.649295,41.124685,0
+                -75.649637,41.122344,0
+                -75.647697,41.121782,0
+                -75.645745,41.118134,0
+                -75.646705,41.114197,0
+                -75.646417,41.113269,0
+                -75.643969,41.112773,0
+                -75.640401,41.113557,0
+                -75.637587,41.113398,0
+                -75.634322,41.11215,0
+                -75.632978,41.108534,0
+                -75.631218,41.107509,0
+                -75.628242,41.106901,0
+                -75.62709,41.107989,0
+                -75.62613,41.110597,0
+                -75.623868,41.111112,0
+                -75.620037,41.108971,0
+                -75.620611,41.106716,0
+                -75.615948,41.104759,0
+                -75.615629,41.102554,0
+                -75.613995,41.09968,0
+                -75.61426,41.096165,0
+                -75.612694,41.094237,0
+                -75.605729,41.094364,0
+                -75.603991,41.093022,0
+                -75.60505,41.09171,0
+                -75.605146,41.089142,0
+                -75.606066,41.085624,0
+                -75.605348,41.084708,0
+                -75.604387,41.084282,0
+                -75.600817,41.084481,0
+                -75.59602,41.080677,0
+                -75.594034,41.080753,0
+                -75.591805,41.078255,0
+                -75.589698,41.077035,0
+                -75.587459,41.075974,0
+                -75.585545,41.073828,0
+                -75.582965,41.072635,0
+                -75.583269,41.070636,0
+                -75.582071,41.068818,0
+                -75.580511,41.067764,0
+                -75.57894,41.068752,0
+                -75.577166,41.068171,0
+                -75.57599,41.065008,0
+                -75.574597,41.063597,0
+                -75.574887,41.062691,0
+                -75.571186,41.059304,0
+                -75.571142,41.057524,0
+                -75.568886,41.056608,0
+                -75.568414,41.055323,0
+                -75.570003,41.054839,0
+                -75.570431,41.053313,0
+                -75.569654,41.052396,0
+                -75.56985,41.050326,0
+                -75.563757,41.049156,0
+                -75.563148,41.049804,0
+                -75.561397,41.048994,0
+                -75.546138,41.034291,0
+                -75.528551,41.017467,0
+                -75.522501,41.011778,0
+                -75.515892,41.005542,0
+                -75.515178,41.004878,0
+                -75.508978,40.998672,0
+                -75.497364,40.988436,0
+                -75.49599,40.987181,0
+                -75.500439,40.985119,0
+                -75.514609,40.978784,0
+                -75.519339,40.976849,0
+                -75.546245,40.964603,0
+                -75.57459,40.951323,0
+                -75.572698,40.94918,0
+                -75.556438,40.928693,0
+                -75.533172,40.898606,0
+                -75.52682,40.890394,0
+                -75.517953,40.878192,0
+                -75.513434,40.872717,0
+                -75.499628,40.854186,0
+                -75.493581,40.846442,0
+                -75.487614,40.837969,0
+                -75.482577,40.829931,0
+                -75.474193,40.814746,0
+                -75.472541,40.815055,0
+                -75.443267,40.818276,0
+                -75.44245,40.818367,0
+                -75.42049,40.823451,0
+                -75.416759,40.826102,0
+                -75.414469,40.826439,0
+                -75.383266,40.831037,0
+                -75.378852,40.832527,0
+                -75.373648,40.834291,0
+                -75.339791,40.845944,0
+                -75.338417,40.846736,0
+                -75.322299,40.855036,0
+                -75.320931,40.855657,0
+                -75.316135,40.856578,0
+                -75.300594,40.859563,0
+                -75.29494,40.8622,0
+                -75.294828,40.862244,0
+                -75.290074,40.86393,0
+                -75.284039,40.86604,0
+                -75.27353,40.87315,0
+                -75.267224,40.882473,0
+                -75.244197,40.894203,0
+                -75.234029,40.899035,0
+                -75.232502,40.899759,0
+                -75.24113,40.909438,0
+                -75.221821,40.919581,0
+                -75.21819,40.927875,0
+                -75.217003,40.928397,0
+                -75.195536,40.936337,0
+                -75.187531,40.937131,0
+                -75.178073,40.94032,0
+                -75.176836,40.945523,0
+                -75.169463,40.948015,0
+                -75.16179,40.948395,0
+                -75.160387,40.948491,0
+                -75.152935,40.949311,0
+                -75.14513,40.951584,0
+                -75.13896,40.954394,0
+                -75.129232,40.95893,0
+                -75.12831,40.95964,0
+                -75.120518,40.968373,0
+                -75.122603,40.970152,0
+                -75.129074,40.968976,0
+                -75.131364,40.969277,0
+                -75.13378,40.970973,0
+                -75.135526,40.973807,0
+                -75.135521,40.976865,0
+                -75.133086,40.980179,0
+                -75.132106,40.982566,0
+                -75.13153,40.984914,0
+                -75.131619,40.9889,0
+                -75.131461,40.989232,0
+                -75.130575,40.991093,0
+                -75.127196,40.993954,0
+                -75.123423,40.996129,0
+                -75.110595,41.002174,0
+                -75.109114,41.004102,0
+                -75.100682,41.006716,0
+                -75.095556,41.008874,0
+                -75.090312,41.013302,0
+                -75.089787,41.014549,0
+                -75.081101,41.016838,0
+                -75.074999,41.01713,0
+                -75.070532,41.01862,0
+                -75.044049,41.030268,0
+                -75.040668,41.031755,0
+                -75.034496,41.036755,0
+                -75.030701,41.038416,0
+                -75.025777,41.039806,0
+                -75.02543,41.04071,0
+                -75.026376,41.04444,0
+                -75.025702,41.046482,0
+                -75.019186,41.052968,0
+                -75.017239,41.055491,0
+                -75.015867,41.05821,0
+                -75.015271,41.061215,0
+                -75.01257,41.066281,0
+                -75.011133,41.067521,0
+                -75.006376,41.067546,0
+                -74.999617,41.073943,0
+                -74.994847,41.076556,0
+                -74.989332,41.078319,0
+                -74.98259,41.079172,0
+                -74.970987,41.085293,0
+                -74.968389,41.087797,0
+                -74.966759,41.093425,0
+                -74.967098,41.094339,0
+                -74.967464,41.095327,0
+                -74.969434,41.096074,0
+                -74.972036,41.095562,0
+                -74.975298,41.094073,0
+                -74.981314,41.08986,0
+                -74.984782,41.088545,0
+                -74.988263,41.088222,0
+                -74.991013,41.088578,0
+                -74.991815,41.089132,0
+                -74.991718,41.092284,0
+                -74.993652,41.093874,0
+                -74.996402,41.092988,0
+                -74.997137,41.089855,0
+                -74.99962,41.089372,0
+                -75.002964,41.091759,0
+                -75.006838,41.088514,0
+                -75.008649,41.087921,0
+                -75.011782,41.088005,0
+                -75.01277,41.086594,0
+                -75.012434,41.084168,0
+                -75.013012,41.083632,0
+                -75.014988,41.083702,0
+                -75.018547,41.084888,0
+                -75.020452,41.084787,0
+                -75.025001,41.083517,0
+                -75.025415,41.082421,0
+                -75.027205,41.079869,0
+                -75.027957,41.079868,0
+                -75.029099,41.082852,0
+                -75.032593,41.085267,0
+                -75.033871,41.08756,0
+                -75.037924,41.088431,0
+                -75.039216,41.088797,0
+                -75.051836,41.1065,0
+                -75.054753,41.110533,0
+                -75.062953,41.121868,0
+                -75.077151,41.141154,0
+                -75.082677,41.141715,0
+                -75.149347,41.149468,0
+                -75.152216,41.149817,0
+                -75.156507,41.150341,0
+                -75.13843,41.218635,0
+                -75.129721,41.252101,0
+                -75.234012,41.246103,0
+                -75.242086,41.24589,0
+                -75.265312,41.244595,0
+                -75.307348,41.24223,0
+                -75.359184,41.239206,0
+                -75.366024,41.239,0
+                -75.366893,41.238262,0
+                -75.372235,41.237959,0
+                -75.374627,41.237783,0
+                -75.421721,41.235819,0
+                -75.444917,41.234859,0
+                -75.451805,41.234565,0
+                -75.459438,41.234189,0
+                -75.492158,41.232932,0
+                -75.497379,41.232759,0
+                -75.501334,41.232678,0
+                -75.505607,41.232539,0
+                -75.508584,41.232661,0
+                -75.509365,41.229666,0
+                -75.509252,41.227989,0
+                -75.510758,41.225145,0
+                -75.512414,41.223194,0
+                -75.51461,41.222097,0
+                -75.51713,41.219233,0
+                -75.521671,41.22197,0
+                -75.525584,41.223017,0
+                -75.526598,41.224892,0
+                -75.529356,41.226591,0
+                -75.532449,41.225316,0
+                -75.53507,41.225033,0
+                -75.539846,41.225461,0
+                -75.544063,41.223328,0
+                -75.544409,41.221837,0
+                -75.549144,41.2174,0
+                -75.551153,41.214991,0
+                -75.552367,41.212442,0
+                -75.554017,41.21168,0
+                -75.555158,41.208994,0
+                -75.554723,41.20765,0
+                -75.558862,41.206857,0
+                -75.560074,41.205052,0
+                -75.562641,41.205355,0
+                -75.563404,41.203865,0
+                -75.566945,41.199614,0
+                -75.56974,41.198744,0
+                -75.569666,41.197123,0
+                -75.570901,41.195045,0
+                -75.569157,41.193342,0
+                -75.570581,41.192615,0
+                -75.570211,41.19113,0
+                -75.574128,41.189084,0
+                -75.576371,41.186551,0
+                -75.57621,41.181777,0
+                -75.575547,41.18088,0
+                -75.576653,41.177857,0
+                -75.577485,41.177537,0
+                -75.582724,41.176745,0
+                -75.587812,41.172666,0
+                -75.593764,41.171779,0
+                -75.598536,41.171935,0
+                -75.597746,41.170272,0
+                -75.597905,41.168065,0
+                -75.596335,41.165821,0
+                -75.597265,41.163204,0
+                -75.598634,41.163062,0
+                -75.600293,41.161927,0
+                -75.600736,41.161497,0
+                -75.600926,41.159491,0
+                -75.604296,41.156591,0
+                -75.60308,41.15394,0
+                -75.603002,41.151914,0
+                -75.607011,41.150102,0
+                -75.609241,41.149944,0
+                -75.613543,41.151273,0
+                -75.615557,41.150001,0
+                -75.613918,41.146767,0
+                -75.614024,41.14537,0
+                -75.616384,41.14288,0
+                -75.621549,41.140916,0
+                -75.624942,41.137897,0
+                -75.628152,41.137159,0
+                -75.628422,41.134185,0
+                -75.627753,41.132792,0
+                -75.625602,41.132084,0
+                -75.624997,41.131051,0
+                -75.62713,41.129868,0
+                -75.628068,41.128287,0
+                -75.63283,41.127945,0
+                -75.634087,41.123467,0
+                -75.634978,41.123192,0
+                -75.637512,41.125532,0
+                -75.640265,41.126823,0
+                -75.643123,41.126717,0
+                -75.648471,41.125426,0
+                -75.649295,41.124685,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>TownshipsMonroeCounty.kml</name>
+      <Placemark>
+        <name>Barrett</name>
+        <description><![CDATA[description: <br> Attributes<br>  STATEFP  42 <br>  COUNTYFP  089 <br>  COUSUBFP  04320 <br>  COUSUBNS  01216834 <br>  AFFGEOID  0600000US4208904320 <br>  GEOID  4208904320 <br>  NAME  Barrett <br>  LSAD  44 <br>  ALAND  135658906 <br>  AWATER  1585296 <br>STATEFP: 42<br>COUNTYFP: 089<br>COUSUBFP: 04320<br>COUSUBNS: 01216834<br>AFFGEOID: 0600000US4208904320<br>GEOID: 4208904320<br>NAME: Barrett<br>LSAD: 44<br>ALAND: 135658906<br>AWATER: 1585296]]></description>
+        <styleUrl>#poly-000000-1200-77</styleUrl>
+        <ExtendedData>
+          <Data name="description">
+            <value>
+ Attributes
+  STATEFP  42 
+  COUNTYFP  089 
+  COUSUBFP  04320 
+  COUSUBNS  01216834 
+  AFFGEOID  0600000US4208904320 
+  GEOID  4208904320 
+  NAME  Barrett 
+  LSAD  44 
+  ALAND  135658906 
+  AWATER  1585296 </value>
+          </Data>
+          <Data name="STATEFP">
+            <value>42</value>
+          </Data>
+          <Data name="COUNTYFP">
+            <value>089</value>
+          </Data>
+          <Data name="COUSUBFP">
+            <value>04320</value>
+          </Data>
+          <Data name="COUSUBNS">
+            <value>01216834</value>
+          </Data>
+          <Data name="AFFGEOID">
+            <value>0600000US4208904320</value>
+          </Data>
+          <Data name="GEOID">
+            <value>4208904320</value>
+          </Data>
+          <Data name="NAME">
+            <value>Barrett</value>
+          </Data>
+          <Data name="LSAD">
+            <value>44</value>
+          </Data>
+          <Data name="ALAND">
+            <value>135658906</value>
+          </Data>
+          <Data name="AWATER">
+            <value>1585296</value>
+          </Data>
+        </ExtendedData>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <tessellate>1</tessellate>
+              <coordinates>
+                -75.307348,41.24223,0
+                -75.337103,41.148083,0
+                -75.249491,41.143936,0
+                -75.232915,41.155086,0
+                -75.13843,41.218635,0
+                -75.129721,41.252101,0
+                -75.234012,41.246103,0
+                -75.242086,41.24589,0
+                -75.265312,41.244595,0
+                -75.307348,41.24223,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+      <Placemark>
+        <name>Chestnuthill</name>
+        <description><![CDATA[description: <br> Attributes<br>  STATEFP  42 <br>  COUNTYFP  089 <br>  COUSUBFP  13328 <br>  COUSUBNS  01216835 <br>  AFFGEOID  0600000US4208913328 <br>  GEOID  4208913328 <br>  NAME  Chestnuthill <br>  LSAD  44 <br>  ALAND  96834519 <br>  AWATER  347242 <br>STATEFP: 42<br>COUNTYFP: 089<br>COUSUBFP: 13328<br>COUSUBNS: 01216835<br>AFFGEOID: 0600000US4208913328<br>GEOID: 4208913328<br>NAME: Chestnuthill<br>LSAD: 44<br>ALAND: 96834519<br>AWATER: 347242]]></description>
+        <styleUrl>#poly-000000-1200-77</styleUrl>
+        <ExtendedData>
+          <Data name="description">
+            <value>
+ Attributes
+  STATEFP  42 
+  COUNTYFP  089 
+  COUSUBFP  13328 
+  COUSUBNS  01216835 
+  AFFGEOID  0600000US4208913328 
+  GEOID  4208913328 
+  NAME  Chestnuthill 
+  LSAD  44 
+  ALAND  96834519 
+  AWATER  347242 </value>
+          </Data>
+          <Data name="STATEFP">
+            <value>42</value>
+          </Data>
+          <Data name="COUNTYFP">
+            <value>089</value>
+          </Data>
+          <Data name="COUSUBFP">
+            <value>13328</value>
+          </Data>
+          <Data name="COUSUBNS">
+            <value>01216835</value>
+          </Data>
+          <Data name="AFFGEOID">
+            <value>0600000US4208913328</value>
+          </Data>
+          <Data name="GEOID">
+            <value>4208913328</value>
+          </Data>
+          <Data name="NAME">
+            <value>Chestnuthill</value>
+          </Data>
+          <Data name="LSAD">
+            <value>44</value>
+          </Data>
+          <Data name="ALAND">
+            <value>96834519</value>
+          </Data>
+          <Data name="AWATER">
+            <value>347242</value>
+          </Data>
+        </ExtendedData>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <tessellate>1</tessellate>
+              <coordinates>
+                -75.496291,40.988945,0
+                -75.492259,40.980629,0
+                -75.48977,40.977468,0
+                -75.489101,40.976516,0
+                -75.48736,40.974406,0
+                -75.485894,40.972872,0
+                -75.477424,40.963995,0
+                -75.476049,40.962178,0
+                -75.465037,40.947615,0
+                -75.452721,40.931238,0
+                -75.452078,40.930499,0
+                -75.449692,40.927009,0
+                -75.42713,40.897121,0
+                -75.38359,40.907118,0
+                -75.336805,40.91784,0
+                -75.342647,40.925583,0
+                -75.355397,40.942487,0
+                -75.36075,40.949505,0
+                -75.379329,40.973867,0
+                -75.388285,40.985592,0
+                -75.395137,40.994565,0
+                -75.411092,41.015545,0
+                -75.416087,41.022092,0
+                -75.450988,41.007677,0
+                -75.463304,41.002593,0
+                -75.496291,40.988945,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+      <Placemark>
+        <name>Tunkhannock</name>
+        <description><![CDATA[description: <br> Attributes<br>  STATEFP  42 <br>  COUNTYFP  089 <br>  COUSUBFP  77776 <br>  COUSUBNS  01216849 <br>  AFFGEOID  0600000US4208977776 <br>  GEOID  4208977776 <br>  NAME  Tunkhannock <br>  LSAD  44 <br>  ALAND  99834220 <br>  AWATER  749252 <br>STATEFP: 42<br>COUNTYFP: 089<br>COUSUBFP: 77776<br>COUSUBNS: 01216849<br>AFFGEOID: 0600000US4208977776<br>GEOID: 4208977776<br>NAME: Tunkhannock<br>LSAD: 44<br>ALAND: 99834220<br>AWATER: 749252]]></description>
+        <styleUrl>#poly-000000-1200-77</styleUrl>
+        <ExtendedData>
+          <Data name="description">
+            <value>
+ Attributes
+  STATEFP  42 
+  COUNTYFP  089 
+  COUSUBFP  77776 
+  COUSUBNS  01216849 
+  AFFGEOID  0600000US4208977776 
+  GEOID  4208977776 
+  NAME  Tunkhannock 
+  LSAD  44 
+  ALAND  99834220 
+  AWATER  749252 </value>
+          </Data>
+          <Data name="STATEFP">
+            <value>42</value>
+          </Data>
+          <Data name="COUNTYFP">
+            <value>089</value>
+          </Data>
+          <Data name="COUSUBFP">
+            <value>77776</value>
+          </Data>
+          <Data name="COUSUBNS">
+            <value>01216849</value>
+          </Data>
+          <Data name="AFFGEOID">
+            <value>0600000US4208977776</value>
+          </Data>
+          <Data name="GEOID">
+            <value>4208977776</value>
+          </Data>
+          <Data name="NAME">
+            <value>Tunkhannock</value>
+          </Data>
+          <Data name="LSAD">
+            <value>44</value>
+          </Data>
+          <Data name="ALAND">
+            <value>99834220</value>
+          </Data>
+          <Data name="AWATER">
+            <value>749252</value>
+          </Data>
+        </ExtendedData>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <tessellate>1</tessellate>
+              <coordinates>
+                -75.585545,41.073828,0
+                -75.582965,41.072635,0
+                -75.583269,41.070636,0
+                -75.582071,41.068818,0
+                -75.580511,41.067764,0
+                -75.57894,41.068752,0
+                -75.577166,41.068171,0
+                -75.57599,41.065008,0
+                -75.574597,41.063597,0
+                -75.574887,41.062691,0
+                -75.571186,41.059304,0
+                -75.571142,41.057524,0
+                -75.568886,41.056608,0
+                -75.568414,41.055323,0
+                -75.570003,41.054839,0
+                -75.570431,41.053313,0
+                -75.569654,41.052396,0
+                -75.56985,41.050326,0
+                -75.563757,41.049156,0
+                -75.563148,41.049804,0
+                -75.561397,41.048994,0
+                -75.546138,41.034291,0
+                -75.528551,41.017467,0
+                -75.522501,41.011778,0
+                -75.515892,41.005542,0
+                -75.515178,41.004878,0
+                -75.508978,40.998672,0
+                -75.497364,40.988436,0
+                -75.496291,40.988945,0
+                -75.463304,41.002593,0
+                -75.450988,41.007677,0
+                -75.416087,41.022092,0
+                -75.39367,41.07524,0
+                -75.390979,41.081805,0
+                -75.396498,41.081572,0
+                -75.435412,41.079981,0
+                -75.437459,41.079892,0
+                -75.457732,41.079064,0
+                -75.506038,41.077123,0
+                -75.585545,41.073828,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+      <Placemark>
+        <name>Tobyhanna</name>
+        <description><![CDATA[description: <br> Attributes<br>  STATEFP  42 <br>  COUNTYFP  089 <br>  COUSUBFP  76960 <br>  COUSUBNS  01216848 <br>  AFFGEOID  0600000US4208976960 <br>  GEOID  4208976960 <br>  NAME  Tobyhanna <br>  LSAD  44 <br>  ALAND  129993722 <br>  AWATER  6213801 <br>STATEFP: 42<br>COUNTYFP: 089<br>COUSUBFP: 76960<br>COUSUBNS: 01216848<br>AFFGEOID: 0600000US4208976960<br>GEOID: 4208976960<br>NAME: Tobyhanna<br>LSAD: 44<br>ALAND: 129993722<br>AWATER: 6213801]]></description>
+        <styleUrl>#poly-000000-1200-77</styleUrl>
+        <ExtendedData>
+          <Data name="description">
+            <value>
+ Attributes
+  STATEFP  42 
+  COUNTYFP  089 
+  COUSUBFP  76960 
+  COUSUBNS  01216848 
+  AFFGEOID  0600000US4208976960 
+  GEOID  4208976960 
+  NAME  Tobyhanna 
+  LSAD  44 
+  ALAND  129993722 
+  AWATER  6213801 </value>
+          </Data>
+          <Data name="STATEFP">
+            <value>42</value>
+          </Data>
+          <Data name="COUNTYFP">
+            <value>089</value>
+          </Data>
+          <Data name="COUSUBFP">
+            <value>76960</value>
+          </Data>
+          <Data name="COUSUBNS">
+            <value>01216848</value>
+          </Data>
+          <Data name="AFFGEOID">
+            <value>0600000US4208976960</value>
+          </Data>
+          <Data name="GEOID">
+            <value>4208976960</value>
+          </Data>
+          <Data name="NAME">
+            <value>Tobyhanna</value>
+          </Data>
+          <Data name="LSAD">
+            <value>44</value>
+          </Data>
+          <Data name="ALAND">
+            <value>129993722</value>
+          </Data>
+          <Data name="AWATER">
+            <value>6213801</value>
+          </Data>
+        </ExtendedData>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <tessellate>1</tessellate>
+              <coordinates>
+                -75.649295,41.124685,0
+                -75.649637,41.122344,0
+                -75.647697,41.121782,0
+                -75.645745,41.118134,0
+                -75.646705,41.114197,0
+                -75.646417,41.113269,0
+                -75.643969,41.112773,0
+                -75.640401,41.113557,0
+                -75.637587,41.113398,0
+                -75.634322,41.11215,0
+                -75.632978,41.108534,0
+                -75.631218,41.107509,0
+                -75.628242,41.106901,0
+                -75.62709,41.107989,0
+                -75.62613,41.110597,0
+                -75.623868,41.111112,0
+                -75.620037,41.108971,0
+                -75.620611,41.106716,0
+                -75.615948,41.104759,0
+                -75.615629,41.102554,0
+                -75.613995,41.09968,0
+                -75.61426,41.096165,0
+                -75.612694,41.094237,0
+                -75.605729,41.094364,0
+                -75.603991,41.093022,0
+                -75.60505,41.09171,0
+                -75.605146,41.089142,0
+                -75.606066,41.085624,0
+                -75.605348,41.084708,0
+                -75.604387,41.084282,0
+                -75.600817,41.084481,0
+                -75.59602,41.080677,0
+                -75.594034,41.080753,0
+                -75.591805,41.078255,0
+                -75.589698,41.077035,0
+                -75.587459,41.075974,0
+                -75.585545,41.073828,0
+                -75.506038,41.077123,0
+                -75.457732,41.079064,0
+                -75.437459,41.079892,0
+                -75.435412,41.079981,0
+                -75.396498,41.081572,0
+                -75.390979,41.081805,0
+                -75.378453,41.111571,0
+                -75.383603,41.112779,0
+                -75.398795,41.116345,0
+                -75.424475,41.122389,0
+                -75.453616,41.129206,0
+                -75.477228,41.134744,0
+                -75.52129,41.145084,0
+                -75.555519,41.153113,0
+                -75.577985,41.158379,0
+                -75.598064,41.163095,0
+                -75.598634,41.163062,0
+                -75.600293,41.161927,0
+                -75.600736,41.161497,0
+                -75.600926,41.159491,0
+                -75.604296,41.156591,0
+                -75.60308,41.15394,0
+                -75.603002,41.151914,0
+                -75.607011,41.150102,0
+                -75.609241,41.149944,0
+                -75.613543,41.151273,0
+                -75.615557,41.150001,0
+                -75.613918,41.146767,0
+                -75.614024,41.14537,0
+                -75.616384,41.14288,0
+                -75.621549,41.140916,0
+                -75.624942,41.137897,0
+                -75.628152,41.137159,0
+                -75.628422,41.134185,0
+                -75.627753,41.132792,0
+                -75.625602,41.132084,0
+                -75.624997,41.131051,0
+                -75.62713,41.129868,0
+                -75.628068,41.128287,0
+                -75.63283,41.127945,0
+                -75.634087,41.123467,0
+                -75.634978,41.123192,0
+                -75.637512,41.125532,0
+                -75.640265,41.126823,0
+                -75.643123,41.126717,0
+                -75.648471,41.125426,0
+                -75.649295,41.124685,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+      <Placemark>
+        <name>Stroudsburg</name>
+        <description><![CDATA[description: <br> Attributes<br>  STATEFP  42 <br>  COUNTYFP  089 <br>  COUSUBFP  74888 <br>  COUSUBNS  01215462 <br>  AFFGEOID  0600000US4208974888 <br>  GEOID  4208974888 <br>  NAME  Stroudsburg <br>  LSAD  21 <br>  ALAND  4466783 <br>  AWATER  44774 <br>STATEFP: 42<br>COUNTYFP: 089<br>COUSUBFP: 74888<br>COUSUBNS: 01215462<br>AFFGEOID: 0600000US4208974888<br>GEOID: 4208974888<br>NAME: Stroudsburg<br>LSAD: 21<br>ALAND: 4466783<br>AWATER: 44774]]></description>
+        <styleUrl>#poly-000000-1200-77</styleUrl>
+        <ExtendedData>
+          <Data name="description">
+            <value>
+ Attributes
+  STATEFP  42 
+  COUNTYFP  089 
+  COUSUBFP  74888 
+  COUSUBNS  01215462 
+  AFFGEOID  0600000US4208974888 
+  GEOID  4208974888 
+  NAME  Stroudsburg 
+  LSAD  21 
+  ALAND  4466783 
+  AWATER  44774 </value>
+          </Data>
+          <Data name="STATEFP">
+            <value>42</value>
+          </Data>
+          <Data name="COUNTYFP">
+            <value>089</value>
+          </Data>
+          <Data name="COUSUBFP">
+            <value>74888</value>
+          </Data>
+          <Data name="COUSUBNS">
+            <value>01215462</value>
+          </Data>
+          <Data name="AFFGEOID">
+            <value>0600000US4208974888</value>
+          </Data>
+          <Data name="GEOID">
+            <value>4208974888</value>
+          </Data>
+          <Data name="NAME">
+            <value>Stroudsburg</value>
+          </Data>
+          <Data name="LSAD">
+            <value>21</value>
+          </Data>
+          <Data name="ALAND">
+            <value>4466783</value>
+          </Data>
+          <Data name="AWATER">
+            <value>44774</value>
+          </Data>
+        </ExtendedData>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <tessellate>1</tessellate>
+              <coordinates>
+                -75.215792,40.984711,0
+                -75.214706,40.9762,0
+                -75.214278,40.97615,0
+                -75.208091,40.975417,0
+                -75.202491,40.974765,0
+                -75.201049,40.975367,0
+                -75.197369,40.975203,0
+                -75.1895,40.97705,0
+                -75.179355,40.979432,0
+                -75.1809,40.984156,0
+                -75.181534,40.98432,0
+                -75.18353,40.987055,0
+                -75.187021,40.992022,0
+                -75.187617,40.995847,0
+                -75.189143,40.997542,0
+                -75.192837,40.995746,0
+                -75.19719,40.993559,0
+                -75.196418,40.992141,0
+                -75.200086,40.991027,0
+                -75.204862,40.988105,0
+                -75.207076,40.987378,0
+                -75.208071,40.987755,0
+                -75.20863,40.987674,0
+                -75.213039,40.984495,0
+                -75.215792,40.984711,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+      <Placemark>
+        <name>Stroud</name>
+        <description><![CDATA[description: <br> Attributes<br>  STATEFP  42 <br>  COUNTYFP  089 <br>  COUSUBFP  74880 <br>  COUSUBNS  01216847 <br>  AFFGEOID  0600000US4208974880 <br>  GEOID  4208974880 <br>  NAME  Stroud <br>  LSAD  44 <br>  ALAND  80441766 <br>  AWATER  676072 <br>STATEFP: 42<br>COUNTYFP: 089<br>COUSUBFP: 74880<br>COUSUBNS: 01216847<br>AFFGEOID: 0600000US4208974880<br>GEOID: 4208974880<br>NAME: Stroud<br>LSAD: 44<br>ALAND: 80441766<br>AWATER: 676072]]></description>
+        <styleUrl>#poly-000000-1200-77</styleUrl>
+        <ExtendedData>
+          <Data name="description">
+            <value>
+ Attributes
+  STATEFP  42 
+  COUNTYFP  089 
+  COUSUBFP  74880 
+  COUSUBNS  01216847 
+  AFFGEOID  0600000US4208974880 
+  GEOID  4208974880 
+  NAME  Stroud 
+  LSAD  44 
+  ALAND  80441766 
+  AWATER  676072 </value>
+          </Data>
+          <Data name="STATEFP">
+            <value>42</value>
+          </Data>
+          <Data name="COUNTYFP">
+            <value>089</value>
+          </Data>
+          <Data name="COUSUBFP">
+            <value>74880</value>
+          </Data>
+          <Data name="COUSUBNS">
+            <value>01216847</value>
+          </Data>
+          <Data name="AFFGEOID">
+            <value>0600000US4208974880</value>
+          </Data>
+          <Data name="GEOID">
+            <value>4208974880</value>
+          </Data>
+          <Data name="NAME">
+            <value>Stroud</value>
+          </Data>
+          <Data name="LSAD">
+            <value>44</value>
+          </Data>
+          <Data name="ALAND">
+            <value>80441766</value>
+          </Data>
+          <Data name="AWATER">
+            <value>676072</value>
+          </Data>
+        </ExtendedData>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <tessellate>1</tessellate>
+              <coordinates>
+                -75.27512,41.006851,0
+                -75.267735,40.997283,0
+                -75.248897,40.972825,0
+                -75.234427,40.953968,0
+                -75.217828,40.929656,0
+                -75.21798,40.928411,0
+                -75.217003,40.928397,0
+                -75.195536,40.936337,0
+                -75.187531,40.937131,0
+                -75.178073,40.94032,0
+                -75.176836,40.945523,0
+                -75.169463,40.948015,0
+                -75.16179,40.948395,0
+                -75.160387,40.948491,0
+                -75.173331,40.986167,0
+                -75.175625,40.9857,0
+                -75.1809,40.984156,0
+                -75.179355,40.979432,0
+                -75.1895,40.97705,0
+                -75.197369,40.975203,0
+                -75.201049,40.975367,0
+                -75.202491,40.974765,0
+                -75.208091,40.975417,0
+                -75.214278,40.97615,0
+                -75.214706,40.9762,0
+                -75.215792,40.984711,0
+                -75.213039,40.984495,0
+                -75.20863,40.987674,0
+                -75.208071,40.987755,0
+                -75.207076,40.987378,0
+                -75.204862,40.988105,0
+                -75.200086,40.991027,0
+                -75.196418,40.992141,0
+                -75.19719,40.993559,0
+                -75.192837,40.995746,0
+                -75.189143,40.997542,0
+                -75.191855,40.999311,0
+                -75.191841,41.000973,0
+                -75.191169,41.003158,0
+                -75.192287,41.005231,0
+                -75.194318,41.006029,0
+                -75.195501,41.007634,0
+                -75.193441,41.00743,0
+                -75.192344,41.011389,0
+                -75.195662,41.017904,0
+                -75.193866,41.01887,0
+                -75.189795,41.014397,0
+                -75.18675,41.015809,0
+                -75.184353,41.015813,0
+                -75.183039,41.018749,0
+                -75.181153,41.020937,0
+                -75.18319,41.026371,0
+                -75.185168,41.033224,0
+                -75.192922,41.066108,0
+                -75.223483,41.073358,0
+                -75.225466,41.070807,0
+                -75.24234,41.049083,0
+                -75.255677,41.031903,0
+                -75.265374,41.019409,0
+                -75.27512,41.006851,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+      <Placemark>
+        <name>Smithfield</name>
+        <description><![CDATA[description: <br> Attributes<br>  STATEFP  42 <br>  COUNTYFP  089 <br>  COUSUBFP  71344 <br>  COUSUBNS  01216846 <br>  AFFGEOID  0600000US4208971344 <br>  GEOID  4208971344 <br>  NAME  Smithfield <br>  LSAD  44 <br>  ALAND  59405858 <br>  AWATER  1690522 <br>STATEFP: 42<br>COUNTYFP: 089<br>COUSUBFP: 71344<br>COUSUBNS: 01216846<br>AFFGEOID: 0600000US4208971344<br>GEOID: 4208971344<br>NAME: Smithfield<br>LSAD: 44<br>ALAND: 59405858<br>AWATER: 1690522]]></description>
+        <styleUrl>#poly-000000-1200-77</styleUrl>
+        <ExtendedData>
+          <Data name="description">
+            <value>
+ Attributes
+  STATEFP  42 
+  COUNTYFP  089 
+  COUSUBFP  71344 
+  COUSUBNS  01216846 
+  AFFGEOID  0600000US4208971344 
+  GEOID  4208971344 
+  NAME  Smithfield 
+  LSAD  44 
+  ALAND  59405858 
+  AWATER  1690522 </value>
+          </Data>
+          <Data name="STATEFP">
+            <value>42</value>
+          </Data>
+          <Data name="COUNTYFP">
+            <value>089</value>
+          </Data>
+          <Data name="COUSUBFP">
+            <value>71344</value>
+          </Data>
+          <Data name="COUSUBNS">
+            <value>01216846</value>
+          </Data>
+          <Data name="AFFGEOID">
+            <value>0600000US4208971344</value>
+          </Data>
+          <Data name="GEOID">
+            <value>4208971344</value>
+          </Data>
+          <Data name="NAME">
+            <value>Smithfield</value>
+          </Data>
+          <Data name="LSAD">
+            <value>44</value>
+          </Data>
+          <Data name="ALAND">
+            <value>59405858</value>
+          </Data>
+          <Data name="AWATER">
+            <value>1690522</value>
+          </Data>
+        </ExtendedData>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <tessellate>1</tessellate>
+              <coordinates>
+                -75.192922,41.066108,0
+                -75.185168,41.033224,0
+                -75.18319,41.026371,0
+                -75.181153,41.020937,0
+                -75.178143,41.024624,0
+                -75.175777,41.022094,0
+                -75.17284,41.01894,0
+                -75.17432,41.017264,0
+                -75.178622,41.015137,0
+                -75.174925,41.010053,0
+                -75.169538,41.01288,0
+                -75.168141,41.01125,0
+                -75.165476,41.01195,0
+                -75.164707,41.01072,0
+                -75.165313,41.01042,0
+                -75.163329,41.008556,0
+                -75.166307,41.007519,0
+                -75.162183,41.00415,0
+                -75.161748,41.00015,0
+                -75.165906,40.999398,0
+                -75.166648,40.999252,0
+                -75.163771,40.99548,0
+                -75.162312,40.993571,0
+                -75.163518,40.98813,0
+                -75.165108,40.987273,0
+                -75.168015,40.986577,0
+                -75.173331,40.986167,0
+                -75.160387,40.948491,0
+                -75.152935,40.949311,0
+                -75.14513,40.951584,0
+                -75.13896,40.954394,0
+                -75.143264,40.968524,0
+                -75.1457,40.974526,0
+                -75.15084,40.976305,0
+                -75.152352,40.980919,0
+                -75.156385,40.988058,0
+                -75.149676,40.991893,0
+                -75.144229,40.988367,0
+                -75.140167,40.989605,0
+                -75.13756,40.9904,0
+                -75.131461,40.989232,0
+                -75.130575,40.991093,0
+                -75.127196,40.993954,0
+                -75.123423,40.996129,0
+                -75.110595,41.002174,0
+                -75.109114,41.004102,0
+                -75.100682,41.006716,0
+                -75.095556,41.008874,0
+                -75.090312,41.013302,0
+                -75.089787,41.014549,0
+                -75.081101,41.016838,0
+                -75.074999,41.01713,0
+                -75.070532,41.01862,0
+                -75.044049,41.030268,0
+                -75.044232,41.030685,0
+                -75.091832,41.042063,0
+                -75.114969,41.04759,0
+                -75.12844,41.050811,0
+                -75.136279,41.052685,0
+                -75.153417,41.056776,0
+                -75.179603,41.063032,0
+                -75.192922,41.066108,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+      <Placemark>
+        <name>Ross</name>
+        <description><![CDATA[description: <br> Attributes<br>  STATEFP  42 <br>  COUNTYFP  089 <br>  COUSUBFP  66280 <br>  COUSUBNS  01216845 <br>  AFFGEOID  0600000US4208966280 <br>  GEOID  4208966280 <br>  NAME  Ross <br>  LSAD  44 <br>  ALAND  59302080 <br>  AWATER  90114 <br>STATEFP: 42<br>COUNTYFP: 089<br>COUSUBFP: 66280<br>COUSUBNS: 01216845<br>AFFGEOID: 0600000US4208966280<br>GEOID: 4208966280<br>NAME: Ross<br>LSAD: 44<br>ALAND: 59302080<br>AWATER: 90114]]></description>
+        <styleUrl>#poly-000000-1200-77</styleUrl>
+        <ExtendedData>
+          <Data name="description">
+            <value>
+ Attributes
+  STATEFP  42 
+  COUNTYFP  089 
+  COUSUBFP  66280 
+  COUSUBNS  01216845 
+  AFFGEOID  0600000US4208966280 
+  GEOID  4208966280 
+  NAME  Ross 
+  LSAD  44 
+  ALAND  59302080 
+  AWATER  90114 </value>
+          </Data>
+          <Data name="STATEFP">
+            <value>42</value>
+          </Data>
+          <Data name="COUNTYFP">
+            <value>089</value>
+          </Data>
+          <Data name="COUSUBFP">
+            <value>66280</value>
+          </Data>
+          <Data name="COUSUBNS">
+            <value>01216845</value>
+          </Data>
+          <Data name="AFFGEOID">
+            <value>0600000US4208966280</value>
+          </Data>
+          <Data name="GEOID">
+            <value>4208966280</value>
+          </Data>
+          <Data name="NAME">
+            <value>Ross</value>
+          </Data>
+          <Data name="LSAD">
+            <value>44</value>
+          </Data>
+          <Data name="ALAND">
+            <value>59302080</value>
+          </Data>
+          <Data name="AWATER">
+            <value>90114</value>
+          </Data>
+        </ExtendedData>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <tessellate>1</tessellate>
+              <coordinates>
+                -75.42713,40.897121,0
+                -75.40424,40.866501,0
+                -75.388937,40.846028,0
+                -75.378852,40.832527,0
+                -75.373648,40.834291,0
+                -75.339791,40.845944,0
+                -75.338417,40.846736,0
+                -75.322299,40.855036,0
+                -75.320931,40.855657,0
+                -75.316135,40.856578,0
+                -75.300594,40.859563,0
+                -75.29494,40.8622,0
+                -75.294828,40.862244,0
+                -75.309629,40.881909,0
+                -75.315421,40.889551,0
+                -75.319037,40.894334,0
+                -75.327661,40.905734,0
+                -75.32935,40.907963,0
+                -75.336805,40.91784,0
+                -75.38359,40.907118,0
+                -75.42713,40.897121,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+      <Placemark>
+        <name>Price</name>
+        <description><![CDATA[description: <br> Attributes<br>  STATEFP  42 <br>  COUNTYFP  089 <br>  COUSUBFP  62632 <br>  COUSUBNS  01216844 <br>  AFFGEOID  0600000US4208962632 <br>  GEOID  4208962632 <br>  NAME  Price <br>  LSAD  44 <br>  ALAND  64809842 <br>  AWATER  420639 <br>STATEFP: 42<br>COUNTYFP: 089<br>COUSUBFP: 62632<br>COUSUBNS: 01216844<br>AFFGEOID: 0600000US4208962632<br>GEOID: 4208962632<br>NAME: Price<br>LSAD: 44<br>ALAND: 64809842<br>AWATER: 420639]]></description>
+        <styleUrl>#poly-000000-1200-77</styleUrl>
+        <ExtendedData>
+          <Data name="description">
+            <value>
+ Attributes
+  STATEFP  42 
+  COUNTYFP  089 
+  COUSUBFP  62632 
+  COUSUBNS  01216844 
+  AFFGEOID  0600000US4208962632 
+  GEOID  4208962632 
+  NAME  Price 
+  LSAD  44 
+  ALAND  64809842 
+  AWATER  420639 </value>
+          </Data>
+          <Data name="STATEFP">
+            <value>42</value>
+          </Data>
+          <Data name="COUNTYFP">
+            <value>089</value>
+          </Data>
+          <Data name="COUSUBFP">
+            <value>62632</value>
+          </Data>
+          <Data name="COUSUBNS">
+            <value>01216844</value>
+          </Data>
+          <Data name="AFFGEOID">
+            <value>0600000US4208962632</value>
+          </Data>
+          <Data name="GEOID">
+            <value>4208962632</value>
+          </Data>
+          <Data name="NAME">
+            <value>Price</value>
+          </Data>
+          <Data name="LSAD">
+            <value>44</value>
+          </Data>
+          <Data name="ALAND">
+            <value>64809842</value>
+          </Data>
+          <Data name="AWATER">
+            <value>420639</value>
+          </Data>
+        </ExtendedData>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <tessellate>1</tessellate>
+              <coordinates>
+                -75.232915,41.155086,0
+                -75.249491,41.143936,0
+                -75.223483,41.073358,0
+                -75.192922,41.066108,0
+                -75.179603,41.063032,0
+                -75.185798,41.106827,0
+                -75.188504,41.114893,0
+                -75.187117,41.145075,0
+                -75.184651,41.152713,0
+                -75.156507,41.150341,0
+                -75.13843,41.218635,0
+                -75.232915,41.155086,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+      <Placemark>
+        <name>Polk</name>
+        <description><![CDATA[description: <br> Attributes<br>  STATEFP  42 <br>  COUNTYFP  089 <br>  COUSUBFP  61928 <br>  COUSUBNS  01216843 <br>  AFFGEOID  0600000US4208961928 <br>  GEOID  4208961928 <br>  NAME  Polk <br>  LSAD  44 <br>  ALAND  79761687 <br>  AWATER  1001681 <br>STATEFP: 42<br>COUNTYFP: 089<br>COUSUBFP: 61928<br>COUSUBNS: 01216843<br>AFFGEOID: 0600000US4208961928<br>GEOID: 4208961928<br>NAME: Polk<br>LSAD: 44<br>ALAND: 79761687<br>AWATER: 1001681]]></description>
+        <styleUrl>#poly-000000-1200-77</styleUrl>
+        <ExtendedData>
+          <Data name="description">
+            <value>
+ Attributes
+  STATEFP  42 
+  COUNTYFP  089 
+  COUSUBFP  61928 
+  COUSUBNS  01216843 
+  AFFGEOID  0600000US4208961928 
+  GEOID  4208961928 
+  NAME  Polk 
+  LSAD  44 
+  ALAND  79761687 
+  AWATER  1001681 </value>
+          </Data>
+          <Data name="STATEFP">
+            <value>42</value>
+          </Data>
+          <Data name="COUNTYFP">
+            <value>089</value>
+          </Data>
+          <Data name="COUSUBFP">
+            <value>61928</value>
+          </Data>
+          <Data name="COUSUBNS">
+            <value>01216843</value>
+          </Data>
+          <Data name="AFFGEOID">
+            <value>0600000US4208961928</value>
+          </Data>
+          <Data name="GEOID">
+            <value>4208961928</value>
+          </Data>
+          <Data name="NAME">
+            <value>Polk</value>
+          </Data>
+          <Data name="LSAD">
+            <value>44</value>
+          </Data>
+          <Data name="ALAND">
+            <value>79761687</value>
+          </Data>
+          <Data name="AWATER">
+            <value>1001681</value>
+          </Data>
+        </ExtendedData>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <tessellate>1</tessellate>
+              <coordinates>
+                -75.57459,40.951323,0
+                -75.572698,40.94918,0
+                -75.556438,40.928693,0
+                -75.533172,40.898606,0
+                -75.52682,40.890394,0
+                -75.517953,40.878192,0
+                -75.482185,40.885656,0
+                -75.455984,40.891116,0
+                -75.455871,40.890206,0
+                -75.453387,40.890585,0
+                -75.449874,40.89148,0
+                -75.449935,40.892376,0
+                -75.42713,40.897121,0
+                -75.449692,40.927009,0
+                -75.452078,40.930499,0
+                -75.452721,40.931238,0
+                -75.465037,40.947615,0
+                -75.476049,40.962178,0
+                -75.477424,40.963995,0
+                -75.485894,40.972872,0
+                -75.48736,40.974406,0
+                -75.489101,40.976516,0
+                -75.48977,40.977468,0
+                -75.492259,40.980629,0
+                -75.496291,40.988945,0
+                -75.497364,40.988436,0
+                -75.49599,40.987181,0
+                -75.500439,40.985119,0
+                -75.514609,40.978784,0
+                -75.519339,40.976849,0
+                -75.546245,40.964603,0
+                -75.57459,40.951323,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+      <Placemark>
+        <name>Pocono</name>
+        <description><![CDATA[description: <br> Attributes<br>  STATEFP  42 <br>  COUNTYFP  089 <br>  COUSUBFP  61728 <br>  COUSUBNS  01216842 <br>  AFFGEOID  0600000US4208961728 <br>  GEOID  4208961728 <br>  NAME  Pocono <br>  LSAD  44 <br>  ALAND  88680170 <br>  AWATER  479769 <br>STATEFP: 42<br>COUNTYFP: 089<br>COUSUBFP: 61728<br>COUSUBNS: 01216842<br>AFFGEOID: 0600000US4208961728<br>GEOID: 4208961728<br>NAME: Pocono<br>LSAD: 44<br>ALAND: 88680170<br>AWATER: 479769]]></description>
+        <styleUrl>#poly-000000-1200-77</styleUrl>
+        <ExtendedData>
+          <Data name="description">
+            <value>
+ Attributes
+  STATEFP  42 
+  COUNTYFP  089 
+  COUSUBFP  61728 
+  COUSUBNS  01216842 
+  AFFGEOID  0600000US4208961728 
+  GEOID  4208961728 
+  NAME  Pocono 
+  LSAD  44 
+  ALAND  88680170 
+  AWATER  479769 </value>
+          </Data>
+          <Data name="STATEFP">
+            <value>42</value>
+          </Data>
+          <Data name="COUNTYFP">
+            <value>089</value>
+          </Data>
+          <Data name="COUSUBFP">
+            <value>61728</value>
+          </Data>
+          <Data name="COUSUBNS">
+            <value>01216842</value>
+          </Data>
+          <Data name="AFFGEOID">
+            <value>0600000US4208961728</value>
+          </Data>
+          <Data name="GEOID">
+            <value>4208961728</value>
+          </Data>
+          <Data name="NAME">
+            <value>Pocono</value>
+          </Data>
+          <Data name="LSAD">
+            <value>44</value>
+          </Data>
+          <Data name="ALAND">
+            <value>88680170</value>
+          </Data>
+          <Data name="AWATER">
+            <value>479769</value>
+          </Data>
+        </ExtendedData>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <tessellate>1</tessellate>
+              <coordinates>
+                -75.390979,41.081805,0
+                -75.39367,41.07524,0
+                -75.39018,41.073036,0
+                -75.376215,41.06323,0
+                -75.326777,41.028887,0
+                -75.284486,40.999475,0
+                -75.279669,41.003264,0
+                -75.27512,41.006851,0
+                -75.265374,41.019409,0
+                -75.255677,41.031903,0
+                -75.24234,41.049083,0
+                -75.225466,41.070807,0
+                -75.223483,41.073358,0
+                -75.227359,41.074317,0
+                -75.26178,41.08281,0
+                -75.334122,41.100288,0
+                -75.351055,41.105005,0
+                -75.378378,41.111555,0
+                -75.378453,41.111571,0
+                -75.390979,41.081805,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+      <Placemark>
+        <name>Paradise</name>
+        <description><![CDATA[description: <br> Attributes<br>  STATEFP  42 <br>  COUNTYFP  089 <br>  COUSUBFP  57856 <br>  COUSUBNS  01216841 <br>  AFFGEOID  0600000US4208957856 <br>  GEOID  4208957856 <br>  NAME  Paradise <br>  LSAD  44 <br>  ALAND  55141651 <br>  AWATER  244064 <br>STATEFP: 42<br>COUNTYFP: 089<br>COUSUBFP: 57856<br>COUSUBNS: 01216841<br>AFFGEOID: 0600000US4208957856<br>GEOID: 4208957856<br>NAME: Paradise<br>LSAD: 44<br>ALAND: 55141651<br>AWATER: 244064]]></description>
+        <styleUrl>#poly-000000-1200-77</styleUrl>
+        <ExtendedData>
+          <Data name="description">
+            <value>
+ Attributes
+  STATEFP  42 
+  COUNTYFP  089 
+  COUSUBFP  57856 
+  COUSUBNS  01216841 
+  AFFGEOID  0600000US4208957856 
+  GEOID  4208957856 
+  NAME  Paradise 
+  LSAD  44 
+  ALAND  55141651 
+  AWATER  244064 </value>
+          </Data>
+          <Data name="STATEFP">
+            <value>42</value>
+          </Data>
+          <Data name="COUNTYFP">
+            <value>089</value>
+          </Data>
+          <Data name="COUSUBFP">
+            <value>57856</value>
+          </Data>
+          <Data name="COUSUBNS">
+            <value>01216841</value>
+          </Data>
+          <Data name="AFFGEOID">
+            <value>0600000US4208957856</value>
+          </Data>
+          <Data name="GEOID">
+            <value>4208957856</value>
+          </Data>
+          <Data name="NAME">
+            <value>Paradise</value>
+          </Data>
+          <Data name="LSAD">
+            <value>44</value>
+          </Data>
+          <Data name="ALAND">
+            <value>55141651</value>
+          </Data>
+          <Data name="AWATER">
+            <value>244064</value>
+          </Data>
+        </ExtendedData>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <tessellate>1</tessellate>
+              <coordinates>
+                -75.346715,41.118971,0
+                -75.351055,41.105005,0
+                -75.334122,41.100288,0
+                -75.26178,41.08281,0
+                -75.227359,41.074317,0
+                -75.223483,41.073358,0
+                -75.249491,41.143936,0
+                -75.337103,41.148083,0
+                -75.341217,41.135126,0
+                -75.343318,41.128455,0
+                -75.343609,41.127287,0
+                -75.340772,41.128363,0
+                -75.338466,41.127413,0
+                -75.333754,41.126842,0
+                -75.332555,41.126034,0
+                -75.332846,41.124191,0
+                -75.336703,41.121006,0
+                -75.337922,41.119378,0
+                -75.339974,41.11825,0
+                -75.342475,41.118167,0
+                -75.346715,41.118971,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+      <Placemark>
+        <name>Mount Pocono</name>
+        <description><![CDATA[description: <br> Attributes<br>  STATEFP  42 <br>  COUNTYFP  089 <br>  COUSUBFP  51912 <br>  COUSUBNS  01215461 <br>  AFFGEOID  0600000US4208951912 <br>  GEOID  4208951912 <br>  NAME  Mount Pocono <br>  LSAD  21 <br>  ALAND  8945696 <br>  AWATER  8590 <br>STATEFP: 42<br>COUNTYFP: 089<br>COUSUBFP: 51912<br>COUSUBNS: 01215461<br>AFFGEOID: 0600000US4208951912<br>GEOID: 4208951912<br>NAME: Mount Pocono<br>LSAD: 21<br>ALAND: 8945696<br>AWATER: 8590]]></description>
+        <styleUrl>#poly-000000-1200-77</styleUrl>
+        <ExtendedData>
+          <Data name="description">
+            <value>
+ Attributes
+  STATEFP  42 
+  COUNTYFP  089 
+  COUSUBFP  51912 
+  COUSUBNS  01215461 
+  AFFGEOID  0600000US4208951912 
+  GEOID  4208951912 
+  NAME  Mount Pocono 
+  LSAD  21 
+  ALAND  8945696 
+  AWATER  8590 </value>
+          </Data>
+          <Data name="STATEFP">
+            <value>42</value>
+          </Data>
+          <Data name="COUNTYFP">
+            <value>089</value>
+          </Data>
+          <Data name="COUSUBFP">
+            <value>51912</value>
+          </Data>
+          <Data name="COUSUBNS">
+            <value>01215461</value>
+          </Data>
+          <Data name="AFFGEOID">
+            <value>0600000US4208951912</value>
+          </Data>
+          <Data name="GEOID">
+            <value>4208951912</value>
+          </Data>
+          <Data name="NAME">
+            <value>Mount Pocono</value>
+          </Data>
+          <Data name="LSAD">
+            <value>21</value>
+          </Data>
+          <Data name="ALAND">
+            <value>8945696</value>
+          </Data>
+          <Data name="AWATER">
+            <value>8590</value>
+          </Data>
+        </ExtendedData>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <tessellate>1</tessellate>
+              <coordinates>
+                -75.3785,41.121357,0
+                -75.378481,41.119825,0
+                -75.378378,41.111555,0
+                -75.351055,41.105005,0
+                -75.346715,41.118971,0
+                -75.342475,41.118167,0
+                -75.339974,41.11825,0
+                -75.337922,41.119378,0
+                -75.336703,41.121006,0
+                -75.332846,41.124191,0
+                -75.332555,41.126034,0
+                -75.333754,41.126842,0
+                -75.338466,41.127413,0
+                -75.340772,41.128363,0
+                -75.343609,41.127287,0
+                -75.343318,41.128455,0
+                -75.341217,41.135126,0
+                -75.360478,41.138576,0
+                -75.36489,41.139156,0
+                -75.36595,41.137778,0
+                -75.3785,41.121357,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+      <Placemark>
+        <name>Middle Smithfield</name>
+        <description><![CDATA[description: <br> Attributes<br>  STATEFP  42 <br>  COUNTYFP  089 <br>  COUSUBFP  49080 <br>  COUSUBNS  01216840 <br>  AFFGEOID  0600000US4208949080 <br>  GEOID  4208949080 <br>  NAME  Middle Smithfield <br>  LSAD  44 <br>  ALAND  137680792 <br>  AWATER  2776575 <br>STATEFP: 42<br>COUNTYFP: 089<br>COUSUBFP: 49080<br>COUSUBNS: 01216840<br>AFFGEOID: 0600000US4208949080<br>GEOID: 4208949080<br>NAME: Middle Smithfield<br>LSAD: 44<br>ALAND: 137680792<br>AWATER: 2776575]]></description>
+        <styleUrl>#poly-000000-1200-77</styleUrl>
+        <ExtendedData>
+          <Data name="description">
+            <value>
+ Attributes
+  STATEFP  42 
+  COUNTYFP  089 
+  COUSUBFP  49080 
+  COUSUBNS  01216840 
+  AFFGEOID  0600000US4208949080 
+  GEOID  4208949080 
+  NAME  Middle Smithfield 
+  LSAD  44 
+  ALAND  137680792 
+  AWATER  2776575 </value>
+          </Data>
+          <Data name="STATEFP">
+            <value>42</value>
+          </Data>
+          <Data name="COUNTYFP">
+            <value>089</value>
+          </Data>
+          <Data name="COUSUBFP">
+            <value>49080</value>
+          </Data>
+          <Data name="COUSUBNS">
+            <value>01216840</value>
+          </Data>
+          <Data name="AFFGEOID">
+            <value>0600000US4208949080</value>
+          </Data>
+          <Data name="GEOID">
+            <value>4208949080</value>
+          </Data>
+          <Data name="NAME">
+            <value>Middle Smithfield</value>
+          </Data>
+          <Data name="LSAD">
+            <value>44</value>
+          </Data>
+          <Data name="ALAND">
+            <value>137680792</value>
+          </Data>
+          <Data name="AWATER">
+            <value>2776575</value>
+          </Data>
+        </ExtendedData>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <tessellate>1</tessellate>
+              <coordinates>
+                -75.187117,41.145075,0
+                -75.188504,41.114893,0
+                -75.185798,41.106827,0
+                -75.179603,41.063032,0
+                -75.153417,41.056776,0
+                -75.136279,41.052685,0
+                -75.12844,41.050811,0
+                -75.114969,41.04759,0
+                -75.091832,41.042063,0
+                -75.044232,41.030685,0
+                -75.044049,41.030268,0
+                -75.040668,41.031755,0
+                -75.034496,41.036755,0
+                -75.030701,41.038416,0
+                -75.025777,41.039806,0
+                -75.02543,41.04071,0
+                -75.026376,41.04444,0
+                -75.025702,41.046482,0
+                -75.019186,41.052968,0
+                -75.017239,41.055491,0
+                -75.015867,41.05821,0
+                -75.015271,41.061215,0
+                -75.01257,41.066281,0
+                -75.011133,41.067521,0
+                -75.006376,41.067546,0
+                -74.999617,41.073943,0
+                -74.994847,41.076556,0
+                -74.989332,41.078319,0
+                -74.98259,41.079172,0
+                -74.970987,41.085293,0
+                -74.968389,41.087797,0
+                -74.966759,41.093425,0
+                -74.967098,41.094339,0
+                -74.967464,41.095327,0
+                -74.969434,41.096074,0
+                -74.972036,41.095562,0
+                -74.975298,41.094073,0
+                -74.981314,41.08986,0
+                -74.984782,41.088545,0
+                -74.988263,41.088222,0
+                -74.991013,41.088578,0
+                -74.991815,41.089132,0
+                -74.991718,41.092284,0
+                -74.993652,41.093874,0
+                -74.996402,41.092988,0
+                -74.997137,41.089855,0
+                -74.99962,41.089372,0
+                -75.002964,41.091759,0
+                -75.006838,41.088514,0
+                -75.008649,41.087921,0
+                -75.011782,41.088005,0
+                -75.01277,41.086594,0
+                -75.012434,41.084168,0
+                -75.013012,41.083632,0
+                -75.014988,41.083702,0
+                -75.018547,41.084888,0
+                -75.020452,41.084787,0
+                -75.025001,41.083517,0
+                -75.025415,41.082421,0
+                -75.027205,41.079869,0
+                -75.027957,41.079868,0
+                -75.029099,41.082852,0
+                -75.032593,41.085267,0
+                -75.033871,41.08756,0
+                -75.037924,41.088431,0
+                -75.039216,41.088797,0
+                -75.051836,41.1065,0
+                -75.054753,41.110533,0
+                -75.062953,41.121868,0
+                -75.077151,41.141154,0
+                -75.082677,41.141715,0
+                -75.149347,41.149468,0
+                -75.152216,41.149817,0
+                -75.156507,41.150341,0
+                -75.184651,41.152713,0
+                -75.187117,41.145075,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+      <Placemark>
+        <name>Jackson</name>
+        <description><![CDATA[description: <br> Attributes<br>  STATEFP  42 <br>  COUNTYFP  089 <br>  COUSUBFP  37424 <br>  COUSUBNS  01216839 <br>  AFFGEOID  0600000US4208937424 <br>  GEOID  4208937424 <br>  NAME  Jackson <br>  LSAD  44 <br>  ALAND  76347371 <br>  AWATER  1080580 <br>STATEFP: 42<br>COUNTYFP: 089<br>COUSUBFP: 37424<br>COUSUBNS: 01216839<br>AFFGEOID: 0600000US4208937424<br>GEOID: 4208937424<br>NAME: Jackson<br>LSAD: 44<br>ALAND: 76347371<br>AWATER: 1080580]]></description>
+        <styleUrl>#poly-000000-1200-77</styleUrl>
+        <ExtendedData>
+          <Data name="description">
+            <value>
+ Attributes
+  STATEFP  42 
+  COUNTYFP  089 
+  COUSUBFP  37424 
+  COUSUBNS  01216839 
+  AFFGEOID  0600000US4208937424 
+  GEOID  4208937424 
+  NAME  Jackson 
+  LSAD  44 
+  ALAND  76347371 
+  AWATER  1080580 </value>
+          </Data>
+          <Data name="STATEFP">
+            <value>42</value>
+          </Data>
+          <Data name="COUNTYFP">
+            <value>089</value>
+          </Data>
+          <Data name="COUSUBFP">
+            <value>37424</value>
+          </Data>
+          <Data name="COUSUBNS">
+            <value>01216839</value>
+          </Data>
+          <Data name="AFFGEOID">
+            <value>0600000US4208937424</value>
+          </Data>
+          <Data name="GEOID">
+            <value>4208937424</value>
+          </Data>
+          <Data name="NAME">
+            <value>Jackson</value>
+          </Data>
+          <Data name="LSAD">
+            <value>44</value>
+          </Data>
+          <Data name="ALAND">
+            <value>76347371</value>
+          </Data>
+          <Data name="AWATER">
+            <value>1080580</value>
+          </Data>
+        </ExtendedData>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <tessellate>1</tessellate>
+              <coordinates>
+                -75.416087,41.022092,0
+                -75.411092,41.015545,0
+                -75.395137,40.994565,0
+                -75.388285,40.985592,0
+                -75.379329,40.973867,0
+                -75.36075,40.949505,0
+                -75.355397,40.942487,0
+                -75.284486,40.999475,0
+                -75.326777,41.028887,0
+                -75.376215,41.06323,0
+                -75.39018,41.073036,0
+                -75.39367,41.07524,0
+                -75.416087,41.022092,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+      <Placemark>
+        <name>Hamilton</name>
+        <description><![CDATA[description: <br> Attributes<br>  STATEFP  42 <br>  COUNTYFP  089 <br>  COUSUBFP  32176 <br>  COUSUBNS  01216838 <br>  AFFGEOID  0600000US4208932176 <br>  GEOID  4208932176 <br>  NAME  Hamilton <br>  LSAD  44 <br>  ALAND  99253130 <br>  AWATER  468628 <br>STATEFP: 42<br>COUNTYFP: 089<br>COUSUBFP: 32176<br>COUSUBNS: 01216838<br>AFFGEOID: 0600000US4208932176<br>GEOID: 4208932176<br>NAME: Hamilton<br>LSAD: 44<br>ALAND: 99253130<br>AWATER: 468628]]></description>
+        <styleUrl>#poly-000000-1200-77</styleUrl>
+        <ExtendedData>
+          <Data name="description">
+            <value>
+ Attributes
+  STATEFP  42 
+  COUNTYFP  089 
+  COUSUBFP  32176 
+  COUSUBNS  01216838 
+  AFFGEOID  0600000US4208932176 
+  GEOID  4208932176 
+  NAME  Hamilton 
+  LSAD  44 
+  ALAND  99253130 
+  AWATER  468628 </value>
+          </Data>
+          <Data name="STATEFP">
+            <value>42</value>
+          </Data>
+          <Data name="COUNTYFP">
+            <value>089</value>
+          </Data>
+          <Data name="COUSUBFP">
+            <value>32176</value>
+          </Data>
+          <Data name="COUSUBNS">
+            <value>01216838</value>
+          </Data>
+          <Data name="AFFGEOID">
+            <value>0600000US4208932176</value>
+          </Data>
+          <Data name="GEOID">
+            <value>4208932176</value>
+          </Data>
+          <Data name="NAME">
+            <value>Hamilton</value>
+          </Data>
+          <Data name="LSAD">
+            <value>44</value>
+          </Data>
+          <Data name="ALAND">
+            <value>99253130</value>
+          </Data>
+          <Data name="AWATER">
+            <value>468628</value>
+          </Data>
+        </ExtendedData>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <tessellate>1</tessellate>
+              <coordinates>
+                -75.355397,40.942487,0
+                -75.342647,40.925583,0
+                -75.336805,40.91784,0
+                -75.32935,40.907963,0
+                -75.327661,40.905734,0
+                -75.319037,40.894334,0
+                -75.315421,40.889551,0
+                -75.309629,40.881909,0
+                -75.294828,40.862244,0
+                -75.290074,40.86393,0
+                -75.284039,40.86604,0
+                -75.27353,40.87315,0
+                -75.267224,40.882473,0
+                -75.244197,40.894203,0
+                -75.234029,40.899035,0
+                -75.232502,40.899759,0
+                -75.24113,40.909438,0
+                -75.221821,40.919581,0
+                -75.21819,40.927875,0
+                -75.217003,40.928397,0
+                -75.21798,40.928411,0
+                -75.217828,40.929656,0
+                -75.234427,40.953968,0
+                -75.248897,40.972825,0
+                -75.267735,40.997283,0
+                -75.27512,41.006851,0
+                -75.279669,41.003264,0
+                -75.284486,40.999475,0
+                -75.355397,40.942487,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+      <Placemark>
+        <name>Eldred</name>
+        <description><![CDATA[description: <br> Attributes<br>  STATEFP  42 <br>  COUNTYFP  089 <br>  COUSUBFP  22904 <br>  COUSUBNS  01216837 <br>  AFFGEOID  0600000US4208922904 <br>  GEOID  4208922904 <br>  NAME  Eldred <br>  LSAD  44 <br>  ALAND  63460090 <br>  AWATER  12266 <br>STATEFP: 42<br>COUNTYFP: 089<br>COUSUBFP: 22904<br>COUSUBNS: 01216837<br>AFFGEOID: 0600000US4208922904<br>GEOID: 4208922904<br>NAME: Eldred<br>LSAD: 44<br>ALAND: 63460090<br>AWATER: 12266]]></description>
+        <styleUrl>#poly-000000-1200-77</styleUrl>
+        <ExtendedData>
+          <Data name="description">
+            <value>
+ Attributes
+  STATEFP  42 
+  COUNTYFP  089 
+  COUSUBFP  22904 
+  COUSUBNS  01216837 
+  AFFGEOID  0600000US4208922904 
+  GEOID  4208922904 
+  NAME  Eldred 
+  LSAD  44 
+  ALAND  63460090 
+  AWATER  12266 </value>
+          </Data>
+          <Data name="STATEFP">
+            <value>42</value>
+          </Data>
+          <Data name="COUNTYFP">
+            <value>089</value>
+          </Data>
+          <Data name="COUSUBFP">
+            <value>22904</value>
+          </Data>
+          <Data name="COUSUBNS">
+            <value>01216837</value>
+          </Data>
+          <Data name="AFFGEOID">
+            <value>0600000US4208922904</value>
+          </Data>
+          <Data name="GEOID">
+            <value>4208922904</value>
+          </Data>
+          <Data name="NAME">
+            <value>Eldred</value>
+          </Data>
+          <Data name="LSAD">
+            <value>44</value>
+          </Data>
+          <Data name="ALAND">
+            <value>63460090</value>
+          </Data>
+          <Data name="AWATER">
+            <value>12266</value>
+          </Data>
+        </ExtendedData>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <tessellate>1</tessellate>
+              <coordinates>
+                -75.517953,40.878192,0
+                -75.513434,40.872717,0
+                -75.499628,40.854186,0
+                -75.493581,40.846442,0
+                -75.487614,40.837969,0
+                -75.482577,40.829931,0
+                -75.474193,40.814746,0
+                -75.472541,40.815055,0
+                -75.443267,40.818276,0
+                -75.44245,40.818367,0
+                -75.42049,40.823451,0
+                -75.416759,40.826102,0
+                -75.414469,40.826439,0
+                -75.383266,40.831037,0
+                -75.378852,40.832527,0
+                -75.388937,40.846028,0
+                -75.40424,40.866501,0
+                -75.42713,40.897121,0
+                -75.449935,40.892376,0
+                -75.449874,40.89148,0
+                -75.453387,40.890585,0
+                -75.455871,40.890206,0
+                -75.455984,40.891116,0
+                -75.482185,40.885656,0
+                -75.517953,40.878192,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+      <Placemark>
+        <name>East Stroudsburg</name>
+        <description><![CDATA[description: <br> Attributes<br>  STATEFP  42 <br>  COUNTYFP  089 <br>  COUSUBFP  21872 <br>  COUSUBNS  01215460 <br>  AFFGEOID  0600000US4208921872 <br>  GEOID  4208921872 <br>  NAME  East Stroudsburg <br>  LSAD  21 <br>  ALAND  7366396 <br>  AWATER  41616 <br>STATEFP: 42<br>COUNTYFP: 089<br>COUSUBFP: 21872<br>COUSUBNS: 01215460<br>AFFGEOID: 0600000US4208921872<br>GEOID: 4208921872<br>NAME: East Stroudsburg<br>LSAD: 21<br>ALAND: 7366396<br>AWATER: 41616]]></description>
+        <styleUrl>#poly-000000-1200-77</styleUrl>
+        <ExtendedData>
+          <Data name="description">
+            <value>
+ Attributes
+  STATEFP  42 
+  COUNTYFP  089 
+  COUSUBFP  21872 
+  COUSUBNS  01215460 
+  AFFGEOID  0600000US4208921872 
+  GEOID  4208921872 
+  NAME  East Stroudsburg 
+  LSAD  21 
+  ALAND  7366396 
+  AWATER  41616 </value>
+          </Data>
+          <Data name="STATEFP">
+            <value>42</value>
+          </Data>
+          <Data name="COUNTYFP">
+            <value>089</value>
+          </Data>
+          <Data name="COUSUBFP">
+            <value>21872</value>
+          </Data>
+          <Data name="COUSUBNS">
+            <value>01215460</value>
+          </Data>
+          <Data name="AFFGEOID">
+            <value>0600000US4208921872</value>
+          </Data>
+          <Data name="GEOID">
+            <value>4208921872</value>
+          </Data>
+          <Data name="NAME">
+            <value>East Stroudsburg</value>
+          </Data>
+          <Data name="LSAD">
+            <value>21</value>
+          </Data>
+          <Data name="ALAND">
+            <value>7366396</value>
+          </Data>
+          <Data name="AWATER">
+            <value>41616</value>
+          </Data>
+        </ExtendedData>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <tessellate>1</tessellate>
+              <coordinates>
+                -75.193866,41.01887,0
+                -75.195662,41.017904,0
+                -75.192344,41.011389,0
+                -75.193441,41.00743,0
+                -75.195501,41.007634,0
+                -75.194318,41.006029,0
+                -75.192287,41.005231,0
+                -75.191169,41.003158,0
+                -75.191841,41.000973,0
+                -75.191855,40.999311,0
+                -75.189143,40.997542,0
+                -75.187617,40.995847,0
+                -75.187021,40.992022,0
+                -75.18353,40.987055,0
+                -75.181534,40.98432,0
+                -75.1809,40.984156,0
+                -75.175625,40.9857,0
+                -75.173331,40.986167,0
+                -75.168015,40.986577,0
+                -75.165108,40.987273,0
+                -75.163518,40.98813,0
+                -75.162312,40.993571,0
+                -75.163771,40.99548,0
+                -75.166648,40.999252,0
+                -75.165906,40.999398,0
+                -75.161748,41.00015,0
+                -75.162183,41.00415,0
+                -75.166307,41.007519,0
+                -75.163329,41.008556,0
+                -75.165313,41.01042,0
+                -75.164707,41.01072,0
+                -75.165476,41.01195,0
+                -75.168141,41.01125,0
+                -75.169538,41.01288,0
+                -75.174925,41.010053,0
+                -75.178622,41.015137,0
+                -75.17432,41.017264,0
+                -75.17284,41.01894,0
+                -75.175777,41.022094,0
+                -75.178143,41.024624,0
+                -75.181153,41.020937,0
+                -75.183039,41.018749,0
+                -75.184353,41.015813,0
+                -75.18675,41.015809,0
+                -75.189795,41.014397,0
+                -75.193866,41.01887,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+      <Placemark>
+        <name>Delaware Water Gap</name>
+        <description><![CDATA[description: <br> Attributes<br>  STATEFP  42 <br>  COUNTYFP  089 <br>  COUSUBFP  18736 <br>  COUSUBNS  01217397 <br>  AFFGEOID  0600000US4208918736 <br>  GEOID  4208918736 <br>  NAME  Delaware Water Gap <br>  LSAD  21 <br>  ALAND  4999376 <br>  AWATER  347299 <br>STATEFP: 42<br>COUNTYFP: 089<br>COUSUBFP: 18736<br>COUSUBNS: 01217397<br>AFFGEOID: 0600000US4208918736<br>GEOID: 4208918736<br>NAME: Delaware Water Gap<br>LSAD: 21<br>ALAND: 4999376<br>AWATER: 347299]]></description>
+        <styleUrl>#poly-000000-1200-77</styleUrl>
+        <ExtendedData>
+          <Data name="description">
+            <value>
+ Attributes
+  STATEFP  42 
+  COUNTYFP  089 
+  COUSUBFP  18736 
+  COUSUBNS  01217397 
+  AFFGEOID  0600000US4208918736 
+  GEOID  4208918736 
+  NAME  Delaware Water Gap 
+  LSAD  21 
+  ALAND  4999376 
+  AWATER  347299 </value>
+          </Data>
+          <Data name="STATEFP">
+            <value>42</value>
+          </Data>
+          <Data name="COUNTYFP">
+            <value>089</value>
+          </Data>
+          <Data name="COUSUBFP">
+            <value>18736</value>
+          </Data>
+          <Data name="COUSUBNS">
+            <value>01217397</value>
+          </Data>
+          <Data name="AFFGEOID">
+            <value>0600000US4208918736</value>
+          </Data>
+          <Data name="GEOID">
+            <value>4208918736</value>
+          </Data>
+          <Data name="NAME">
+            <value>Delaware Water Gap</value>
+          </Data>
+          <Data name="LSAD">
+            <value>21</value>
+          </Data>
+          <Data name="ALAND">
+            <value>4999376</value>
+          </Data>
+          <Data name="AWATER">
+            <value>347299</value>
+          </Data>
+        </ExtendedData>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <tessellate>1</tessellate>
+              <coordinates>
+                -75.156385,40.988058,0
+                -75.152352,40.980919,0
+                -75.15084,40.976305,0
+                -75.1457,40.974526,0
+                -75.143264,40.968524,0
+                -75.13896,40.954394,0
+                -75.129232,40.95893,0
+                -75.12831,40.95964,0
+                -75.120518,40.968373,0
+                -75.122603,40.970152,0
+                -75.129074,40.968976,0
+                -75.131364,40.969277,0
+                -75.13378,40.970973,0
+                -75.135526,40.973807,0
+                -75.135521,40.976865,0
+                -75.133086,40.980179,0
+                -75.132106,40.982566,0
+                -75.13153,40.984914,0
+                -75.131619,40.9889,0
+                -75.131461,40.989232,0
+                -75.13756,40.9904,0
+                -75.140167,40.989605,0
+                -75.144229,40.988367,0
+                -75.149676,40.991893,0
+                -75.156385,40.988058,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+      <Placemark>
+        <name>Coolbaugh</name>
+        <description><![CDATA[description: <br> Attributes<br>  STATEFP  42 <br>  COUNTYFP  089 <br>  COUSUBFP  15960 <br>  COUSUBNS  01216836 <br>  AFFGEOID  0600000US4208915960 <br>  GEOID  4208915960 <br>  NAME  Coolbaugh <br>  LSAD  44 <br>  ALAND  223001064 <br>  AWATER  4588446 <br>STATEFP: 42<br>COUNTYFP: 089<br>COUSUBFP: 15960<br>COUSUBNS: 01216836<br>AFFGEOID: 0600000US4208915960<br>GEOID: 4208915960<br>NAME: Coolbaugh<br>LSAD: 44<br>ALAND: 223001064<br>AWATER: 4588446]]></description>
+        <styleUrl>#poly-000000-1200-77</styleUrl>
+        <ExtendedData>
+          <Data name="description">
+            <value>
+ Attributes
+  STATEFP  42 
+  COUNTYFP  089 
+  COUSUBFP  15960 
+  COUSUBNS  01216836 
+  AFFGEOID  0600000US4208915960 
+  GEOID  4208915960 
+  NAME  Coolbaugh 
+  LSAD  44 
+  ALAND  223001064 
+  AWATER  4588446 </value>
+          </Data>
+          <Data name="STATEFP">
+            <value>42</value>
+          </Data>
+          <Data name="COUNTYFP">
+            <value>089</value>
+          </Data>
+          <Data name="COUSUBFP">
+            <value>15960</value>
+          </Data>
+          <Data name="COUSUBNS">
+            <value>01216836</value>
+          </Data>
+          <Data name="AFFGEOID">
+            <value>0600000US4208915960</value>
+          </Data>
+          <Data name="GEOID">
+            <value>4208915960</value>
+          </Data>
+          <Data name="NAME">
+            <value>Coolbaugh</value>
+          </Data>
+          <Data name="LSAD">
+            <value>44</value>
+          </Data>
+          <Data name="ALAND">
+            <value>223001064</value>
+          </Data>
+          <Data name="AWATER">
+            <value>4588446</value>
+          </Data>
+        </ExtendedData>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <tessellate>1</tessellate>
+              <coordinates>
+                -75.598634,41.163062,0
+                -75.598064,41.163095,0
+                -75.577985,41.158379,0
+                -75.555519,41.153113,0
+                -75.52129,41.145084,0
+                -75.477228,41.134744,0
+                -75.453616,41.129206,0
+                -75.424475,41.122389,0
+                -75.398795,41.116345,0
+                -75.383603,41.112779,0
+                -75.378453,41.111571,0
+                -75.378378,41.111555,0
+                -75.378481,41.119825,0
+                -75.3785,41.121357,0
+                -75.36595,41.137778,0
+                -75.36489,41.139156,0
+                -75.360478,41.138576,0
+                -75.341217,41.135126,0
+                -75.337103,41.148083,0
+                -75.307348,41.24223,0
+                -75.359184,41.239206,0
+                -75.366024,41.239,0
+                -75.366893,41.238262,0
+                -75.372235,41.237959,0
+                -75.374627,41.237783,0
+                -75.421721,41.235819,0
+                -75.444917,41.234859,0
+                -75.451805,41.234565,0
+                -75.459438,41.234189,0
+                -75.492158,41.232932,0
+                -75.497379,41.232759,0
+                -75.501334,41.232678,0
+                -75.505607,41.232539,0
+                -75.508584,41.232661,0
+                -75.509365,41.229666,0
+                -75.509252,41.227989,0
+                -75.510758,41.225145,0
+                -75.512414,41.223194,0
+                -75.51461,41.222097,0
+                -75.51713,41.219233,0
+                -75.521671,41.22197,0
+                -75.525584,41.223017,0
+                -75.526598,41.224892,0
+                -75.529356,41.226591,0
+                -75.532449,41.225316,0
+                -75.53507,41.225033,0
+                -75.539846,41.225461,0
+                -75.544063,41.223328,0
+                -75.544409,41.221837,0
+                -75.549144,41.2174,0
+                -75.551153,41.214991,0
+                -75.552367,41.212442,0
+                -75.554017,41.21168,0
+                -75.555158,41.208994,0
+                -75.554723,41.20765,0
+                -75.558862,41.206857,0
+                -75.560074,41.205052,0
+                -75.562641,41.205355,0
+                -75.563404,41.203865,0
+                -75.566945,41.199614,0
+                -75.56974,41.198744,0
+                -75.569666,41.197123,0
+                -75.570901,41.195045,0
+                -75.569157,41.193342,0
+                -75.570581,41.192615,0
+                -75.570211,41.19113,0
+                -75.574128,41.189084,0
+                -75.576371,41.186551,0
+                -75.57621,41.181777,0
+                -75.575547,41.18088,0
+                -75.576653,41.177857,0
+                -75.577485,41.177537,0
+                -75.582724,41.176745,0
+                -75.587812,41.172666,0
+                -75.593764,41.171779,0
+                -75.598536,41.171935,0
+                -75.597746,41.170272,0
+                -75.597905,41.168065,0
+                -75.596335,41.165821,0
+                -75.597265,41.163204,0
+                -75.598634,41.163062,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Daycare Prices by Color</name>
+      <Placemark>
+        <name>Pocono Services for Families and Children</name>
+        <description>Waiting list, N/A </description>
+        <styleUrl>#icon-1899-7CB342</styleUrl>
+        <Point>
+          <coordinates>
+            -75.186608,41.014877,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pocono YMCA</name>
+        <description>Waiting list Yes</description>
+        <styleUrl>#icon-1899-1A237E</styleUrl>
+        <Point>
+          <coordinates>
+            -75.1676831,41.0151425,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pocono YMCA</name>
+        <description>Waiting List Yes</description>
+        <styleUrl>#icon-1899-1A237E</styleUrl>
+        <Point>
+          <coordinates>
+            -75.1976651,40.9831479,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Countryside Pre-School & Childcare Center Inc]]></name>
+        <description>Waiting List No</description>
+        <styleUrl>#icon-1899-FF5252</styleUrl>
+        <Point>
+          <coordinates>
+            -75.2695393,41.1828051,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Creative Learning Center</name>
+        <description>Waiting List Yes</description>
+        <styleUrl>#icon-1899-7CB342</styleUrl>
+        <Point>
+          <coordinates>
+            -75.1954504,40.9983721,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Nurturing Arms Daycare</name>
+        <description>Waiting List Yes</description>
+        <styleUrl>#icon-1899-FF5252</styleUrl>
+        <Point>
+          <coordinates>
+            -75.3560496,41.1845925,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Wee Wons Inc</name>
+        <description>Waiting List Yes </description>
+        <styleUrl>#icon-1899-F9A825</styleUrl>
+        <Point>
+          <coordinates>
+            -75.4705143,41.1063273,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Hannig Family Childrens Center NCC Monroe Campus</name>
+        <description>Waiting List N/A </description>
+        <styleUrl>#icon-1899-000000</styleUrl>
+        <Point>
+          <coordinates>
+            -75.3249697,41.0317555,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Stepping Stones Preschool/Childcare Inc</name>
+        <description>Waiting List N/A</description>
+        <styleUrl>#icon-1899-FFEA00</styleUrl>
+        <Point>
+          <coordinates>
+            -75.2959013,41.0178252,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Good Start Academy </name>
+        <description>Waiting List N/A </description>
+        <styleUrl>#icon-1899-F9A825</styleUrl>
+        <Point>
+          <coordinates>
+            -75.2437627,40.9750802,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pocono Mountain Kids Village LLC</name>
+        <description>Waiting List N/A </description>
+        <styleUrl>#icon-1899-000000</styleUrl>
+        <Point>
+          <coordinates>
+            -75.3591629,41.1241699,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>St Johns Rainbow Trail Child Care</name>
+        <description>Waiting List N/A </description>
+        <styleUrl>#icon-1899-000000</styleUrl>
+        <Point>
+          <coordinates>
+            -75.1986023,40.9849536,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[The Children's Education and Learning Center ]]></name>
+        <description>Waiting List Yes</description>
+        <styleUrl>#icon-1899-000000</styleUrl>
+        <Point>
+          <coordinates>
+            -75.0951969,41.0549867,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Ms. Matras Preschool and Daycare</name>
+        <description>Waiting List Yes </description>
+        <styleUrl>#icon-1899-F9A825</styleUrl>
+        <Point>
+          <coordinates>
+            -75.3588828,41.1478838,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>A-Z Learning Daycare LLC</name>
+        <description>Waiting List No</description>
+        <styleUrl>#icon-1899-9C27B0</styleUrl>
+        <Point>
+          <coordinates>
+            -75.3632824,41.1327995,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Imagination Land Daycare</name>
+        <description>Waiting List No</description>
+        <styleUrl>#icon-1899-000000</styleUrl>
+        <Point>
+          <coordinates>
+            -75.3864864,40.9246378,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Three Stages Daycare and Learning Corp</name>
+        <description>Waiting List N/A</description>
+        <styleUrl>#icon-1899-1A237E</styleUrl>
+        <Point>
+          <coordinates>
+            -75.3566808,41.1210183,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Tobyhanna Kids</name>
+        <description>Waiting List N/A</description>
+        <styleUrl>#icon-1899-F57C00</styleUrl>
+        <Point>
+          <coordinates>
+            -75.3571149,41.1849818,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Growing Tree Day Care & Learning Center]]></name>
+        <description>Waiting List N/A</description>
+        <styleUrl>#icon-1899-FF5252</styleUrl>
+        <Point>
+          <coordinates>
+            -75.123395,41.038375,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Camp Restoration Inc</name>
+        <description>Waiting List N/A </description>
+        <styleUrl>#icon-1899-F9A825</styleUrl>
+        <Point>
+          <coordinates>
+            -75.3517762,41.0706612,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Little Discoveries Daycare Inc</name>
+        <description>Waiting List N/A</description>
+        <styleUrl>#icon-1899-000000</styleUrl>
+        <Point>
+          <coordinates>
+            -75.2387425,40.9909996,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>The Growing Place Chestnuthill Elementary School</name>
+        <description>Waiting List N/A</description>
+        <styleUrl>#icon-1899-000000</styleUrl>
+        <Point>
+          <coordinates>
+            -75.401765,40.9237176,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Peace of Mind Childcare at Allison's Wonderland]]></name>
+        <description>Waiting List N/A</description>
+        <styleUrl>#icon-1899-000000</styleUrl>
+        <Point>
+          <coordinates>
+            -75.0074562,41.086537,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pocono YMCA at J M Hill Elementary School</name>
+        <description>Waiting List N/A</description>
+        <styleUrl>#icon-1899-000000</styleUrl>
+        <Point>
+          <coordinates>
+            -75.1779765,41.0043855,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Poconoski Child Care </name>
+        <description>Waiting List N/A</description>
+        <styleUrl>#icon-1899-FFEA00</styleUrl>
+        <Point>
+          <coordinates>
+            -75.1295546,41.0423656,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Pocono Mountain Kid's Village LLC]]></name>
+        <description>Waiting List No</description>
+        <styleUrl>#icon-1899-000000</styleUrl>
+        <Point>
+          <coordinates>
+            -75.3643364,41.1329616,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>ABC Daycare and Preschool</name>
+        <description>Waiting List No</description>
+        <styleUrl>#icon-1899-FFEA00</styleUrl>
+        <Point>
+          <coordinates>
+            -75.1510068,41.0030039,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pocono Kids Daycare and Learning Center</name>
+        <description>Waiting List N/A</description>
+        <styleUrl>#icon-1899-000000</styleUrl>
+        <Point>
+          <coordinates>
+            -75.2719838,41.1704688,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Little Red Barn Early Learning Center </name>
+        <description>Waiting List Yes</description>
+        <styleUrl>#icon-1899-7CB342</styleUrl>
+        <Point>
+          <coordinates>
+            -75.2933509,40.9643973,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Early Learners Preschool LLC</name>
+        <description>Waiting List Yes</description>
+        <styleUrl>#icon-1899-F57C00</styleUrl>
+        <Point>
+          <coordinates>
+            -75.3452033,40.9103171,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Swiftwater Daycare Center</name>
+        <description>Waiting List No</description>
+        <styleUrl>#icon-1899-9C27B0</styleUrl>
+        <Point>
+          <coordinates>
+            -75.3244285,41.0954066,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>The Road to Excellence Childcare Learning Center Inc</name>
+        <description>Waiting List No</description>
+        <styleUrl>#icon-1899-FFEA00</styleUrl>
+        <Point>
+          <coordinates>
+            -75.0703444,41.0624741,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Learning Through the Arts</name>
+        <description>Waiting List Yes</description>
+        <styleUrl>#icon-1899-F9A825</styleUrl>
+        <Point>
+          <coordinates>
+            -75.2077578,41.016665,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Chrissy's Youth Development Center]]></name>
+        <description>Waiting List No</description>
+        <styleUrl>#icon-1899-1A237E</styleUrl>
+        <Point>
+          <coordinates>
+            -75.1801909,41.0200346,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Growing Place Child Care Center at Polk Elementary School</name>
+        <description>Waiting List Yes</description>
+        <styleUrl>#icon-1899-FFD600</styleUrl>
+        <Point>
+          <coordinates>
+            -75.4918918,40.9013306,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Wee Wons</name>
+        <description>Waiting List No</description>
+        <styleUrl>#icon-1899-000000</styleUrl>
+        <Point>
+          <coordinates>
+            -75.4883324,41.103669,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Sunny Day Preschool and Daycare Inc</name>
+        <description>Waiting List N/A</description>
+        <styleUrl>#icon-1899-000000</styleUrl>
+        <Point>
+          <coordinates>
+            -75.1357369,41.0069894,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Mekeel Child Care Center at ESU</name>
+        <description>Waiting List N/A</description>
+        <styleUrl>#icon-1899-F57C00</styleUrl>
+        <Point>
+          <coordinates>
+            -75.1775826,40.9970042,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Sunny Day Preschool and Daycare Inc</name>
+        <description>Waiting List N/A</description>
+        <styleUrl>#icon-1899-000000</styleUrl>
+        <Point>
+          <coordinates>
+            -75.399837,40.9777463,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Acorns to Oaks Learning Center</name>
+        <description>Waiting List N/A</description>
+        <styleUrl>#icon-1899-FFEA00</styleUrl>
+        <Point>
+          <coordinates>
+            -75.3246071,41.0728197,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Hopscotch Hill School House</name>
+        <description>Waiting List N/A</description>
+        <styleUrl>#icon-1899-000000</styleUrl>
+        <Point>
+          <coordinates>
+            -75.143343,41.004154,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Jack & Jill Nursery]]></name>
+        <description>Waiting List N/A</description>
+        <styleUrl>#icon-1899-000000</styleUrl>
+        <Point>
+          <coordinates>
+            -75.185249,40.9944803,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>God is Love Christian School</name>
+        <description>Waiting List N/A</description>
+        <styleUrl>#icon-1899-7CB342</styleUrl>
+        <Point>
+          <coordinates>
+            -75.3031146,41.0343528,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Precious Moments Christian Academy Corp</name>
+        <description>Waiting List N/A</description>
+        <styleUrl>#icon-1899-000000</styleUrl>
+        <Point>
+          <coordinates>
+            -75.1677853,41.0270528,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Kelly Ann Finnen Daycare </name>
+        <description>Waiting List N/A</description>
+        <styleUrl>#icon-1899-FF5252</styleUrl>
+        <Point>
+          <coordinates>
+            -75.4781213,41.0105208,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Gods Miracles from Heaven Childcare</name>
+        <description>Waiting List No</description>
+        <styleUrl>#icon-1899-FFEA00</styleUrl>
+        <Point>
+          <coordinates>
+            -75.406475,41.1085989,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Playtime Learning Center and Childcare Inc</name>
+        <description>Waiting List Yes</description>
+        <styleUrl>#icon-1899-FFEA00</styleUrl>
+        <Point>
+          <coordinates>
+            -75.3420035,40.9079849,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Poconoskis Childcare</name>
+        <description>Waiting List Yes</description>
+        <styleUrl>#icon-1899-FFEA00</styleUrl>
+        <Point>
+          <coordinates>
+            -75.3800398,41.1193297,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>The Mountain Center</name>
+        <description>Waiting List Yes</description>
+        <styleUrl>#icon-1899-F9A825</styleUrl>
+        <Point>
+          <coordinates>
+            -75.41441,41.1721499,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Little Discoveries Daycare</name>
+        <description>Waiting List N/A</description>
+        <styleUrl>#icon-1899-000000</styleUrl>
+        <Point>
+          <coordinates>
+            -75.2900635,41.0094353,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Gingerbread Manor Childcare Learning Center Inc</name>
+        <description>Waiting List N/A</description>
+        <styleUrl>#icon-1899-F9A825</styleUrl>
+        <Point>
+          <coordinates>
+            -75.3419101,40.9262358,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Tobyhanna Army Depot Child Development Center</name>
+        <description>Waiting List No</description>
+        <styleUrl>#icon-1899-F9A825</styleUrl>
+        <Point>
+          <coordinates>
+            -75.4291018,41.185909,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>ABC Daycare and Preschool</name>
+        <description>Waiting List No</description>
+        <styleUrl>#icon-1899-FFEA00</styleUrl>
+        <Point>
+          <coordinates>
+            -75.4160358,40.9185917,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pocono Services for Families and Children</name>
+        <description>Waiting List Yes</description>
+        <styleUrl>#icon-1899-FFEA00</styleUrl>
+        <Point>
+          <coordinates>
+            -75.186608,41.014877,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>745 Ann St</name>
+        <description>Amazing Place LLC</description>
+        <styleUrl>#icon-1899-7CB342</styleUrl>
+        <Point>
+          <coordinates>
+            -75.19516,40.983471,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Giggles Learning Academy LLC</name>
+        <description>Waiting List No</description>
+        <styleUrl>#icon-1899-FFEA00</styleUrl>
+        <Point>
+          <coordinates>
+            -75.3429715,41.1237866,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Dekontee Christian Daycare</name>
+        <description>Waiting List Yes</description>
+        <styleUrl>#icon-1899-FFEA00</styleUrl>
+        <Point>
+          <coordinates>
+            -75.1602773,41.0301897,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Bonnie's Playful Pandas Daycare]]></name>
+        <description>Waiting List N/A</description>
+        <styleUrl>#icon-1899-000000</styleUrl>
+        <Point>
+          <coordinates>
+            -75.3267334,41.0294638,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Peace of Mind Childcare and Preschool Inc</name>
+        <description>Waiting List N/A</description>
+        <styleUrl>#icon-1899-000000</styleUrl>
+        <Point>
+          <coordinates>
+            -75.045234,41.068615,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Totally for Kids Academy Inc</name>
+        <description>Waiting List N/A</description>
+        <styleUrl>#icon-1899-000000</styleUrl>
+        <Point>
+          <coordinates>
+            -75.1802539,41.0214495,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Kid's Country Inc]]></name>
+        <description>Waiting List N/A</description>
+        <styleUrl>#icon-1899-000000</styleUrl>
+        <Point>
+          <coordinates>
+            -75.382798,41.112399,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Alphabet Express Child Daycare Center Inc</name>
+        <description>Waiting List N/A</description>
+        <styleUrl>#icon-1899-F9A825</styleUrl>
+        <Point>
+          <coordinates>
+            -75.185135,41.0105296,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Stepping Stones Preschool/Childcare Inc</name>
+        <description>Waiting List N/A</description>
+        <styleUrl>#icon-1899-FFEA00</styleUrl>
+        <Point>
+          <coordinates>
+            -75.2873932,41.1380713,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Genesis Daycare and Learning Center</name>
+        <description>Waiting List N/A</description>
+        <styleUrl>#icon-1899-000000</styleUrl>
+        <Point>
+          <coordinates>
+            -75.4665286,40.9089346,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Linda V Branstetter </name>
+        <description>Waiting List N/A</description>
+        <styleUrl>#icon-1899-000000</styleUrl>
+        <Point>
+          <coordinates>
+            -75.2475642,40.9999224,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Thomas Family Daycare</name>
+        <description>Waiting List N/A</description>
+        <styleUrl>#icon-1899-000000</styleUrl>
+        <Point>
+          <coordinates>
+            -75.1893793,41.0039477,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Mary Searfoss</name>
+        <description>Waiting List N/A</description>
+        <styleUrl>#icon-1899-000000</styleUrl>
+        <Point>
+          <coordinates>
+            -75.1782729,41.0049064,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Karen Furler</name>
+        <description>Waiting List N/A</description>
+        <styleUrl>#icon-1899-000000</styleUrl>
+        <Point>
+          <coordinates>
+            -75.4568444,40.8757925,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Roberta Saunders</name>
+        <description>Waiting List N/A</description>
+        <styleUrl>#icon-1899-000000</styleUrl>
+        <Point>
+          <coordinates>
+            -75.368216,41.218707,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Tiny Toes Learning Center</name>
+        <description>Waiting List No</description>
+        <styleUrl>#icon-1899-000000</styleUrl>
+        <Point>
+          <coordinates>
+            -75.3468484,41.2224676,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Uneeda Gurley</name>
+        <description>Waiting List N/A</description>
+        <styleUrl>#icon-1899-7CB342</styleUrl>
+        <Point>
+          <coordinates>
+            -75.587327,41.1628026,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Donna J McNeal</name>
+        <description>Waiting List Yes</description>
+        <styleUrl>#icon-1899-7CB342</styleUrl>
+        <Point>
+          <coordinates>
+            -75.2115662,40.9766739,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>After Hours Childcare</name>
+        <description>Waiting List No</description>
+        <styleUrl>#icon-1899-FFEA00</styleUrl>
+        <Point>
+          <coordinates>
+            -75.211579,41.115384,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>The Ladybug Learning Center LLC</name>
+        <description>Waiting List Yes</description>
+        <styleUrl>#icon-1899-1A237E</styleUrl>
+        <Point>
+          <coordinates>
+            -75.403857,40.9266269,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Miss Maries Luvn Care</name>
+        <description>Waiting List N/A</description>
+        <styleUrl>#icon-1899-000000</styleUrl>
+        <Point>
+          <coordinates>
+            -75.4174698,40.9242453,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>What About Me Childcare Services</name>
+        <description>Waiting List N/A</description>
+        <styleUrl>#icon-1899-FFEA00</styleUrl>
+        <Point>
+          <coordinates>
+            -75.313674,41.101931,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Grow and Learn Daycare LLC</name>
+        <description>Waiting List No</description>
+        <styleUrl>#icon-1899-FFEA00</styleUrl>
+        <Point>
+          <coordinates>
+            -75.3560524,41.1845384,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>$500-599</name>
+        <styleUrl>#icon-1899-7CB342-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -74.8841854,41.1517762,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>$600-699</name>
+        <styleUrl>#icon-1899-FFEA00-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -74.8443613,41.152804,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>$700-799</name>
+        <styleUrl>#icon-1899-F9A825-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -74.8045333,41.1548601,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>$800-899</name>
+        <styleUrl>#icon-1899-FF5252-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -74.7619676,41.1538158,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>$900-999</name>
+        <styleUrl>#icon-1899-9C27B0-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -74.7193995,41.1537943,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>$1000 or greater</name>
+        <styleUrl>#icon-1899-1A237E-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -74.6836883,41.151718,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Unknown Price</name>
+        <styleUrl>#icon-1899-000000-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -74.6466053,41.1517781,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Key</name>
+        <description>Prices based on estimated monthly cost </description>
+        <styleUrl>#poly-000000-1200-77</styleUrl>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <tessellate>1</tessellate>
+              <coordinates>
+                -74.9116477,41.1889953,0
+                -74.9102744,41.1424731,0
+                -74.6095276,41.1393646,0
+                -74.6109009,41.1889894,0
+                -74.9116477,41.1889953,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>
