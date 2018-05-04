@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Daycare Stars Heatmap</title>
+    <style>
+      /* Always set the map height explicitly to define the size of the div
+       * element that contains the map. */
+      #map {
+        height: 100%;
+      }
+      /* Optional: Makes the sample page fill the window. */
+      html, body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+      }
+      #floating-panel {
+        position: absolute;
+        top: 10px;
+        left: 25%;
+        z-index: 5;
+        background-color: #fff;
+        padding: 5px;
+        border: 1px solid #999;
+        text-align: center;
+        font-family: 'Roboto','sans-serif';
+        line-height: 30px;
+        padding-left: 10px;
+      }
+      #floating-panel {
+        background-color: #fff;
+        border: 1px solid #999;
+        left: 25%;
+        padding: 5px;
+        position: absolute;
+        top: 10px;
+        z-index: 5;
+      }
+	  #floating-panel2 {
+        position: absolute;
+        top: 10px;
+        left: 10%;
+        z-index: 5;
+        background-color: #fff;
+        padding: 5px;
+        border: 1px solid #999;
+        text-align: center;
+        font-family: 'Roboto','sans-serif';
+        line-height: 30px;
+        padding-left: 10px;
+      }
+      #floating-panel2 {
+        background-color: #fff;
+        border: 1px solid #999;
+        left: 10%;
+        padding: 5px;
+        position: absolute;
+        top: 10px;
+        z-index: 5;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div id="floating-panel">
+      <button onclick="toggleHeatmap1()">Show/Hide<br>1 Star</button>
+	  <button onclick="toggleHeatmap2()">Show/Hide<br>2 Star</button>
+	  <button onclick="toggleHeatmap3()">Show/Hide<br>3 Star</button>
+	  <button onclick="toggleHeatmap4()">Show/Hide<br>4 Star</button>
+      <button onclick="changeRadius()">Change<br>Radius</button>
+      <button onclick="changeOpacity()">Change<br>Opacity</button>
+    </div>
+	<div id="floating-panel2">
+	1 Star - Green<br>
+	2 Star - Purple<br>
+	3 Star - Orange<br>
+	4 Star - Blue<br>
+	</div>
+    <div id="map"></div>
+    <script>
+      var map, heatmap;
+	 var src = 'https://bomalley3.github.io/sturdy-fiesta/MonroeBorderOnly.kml';
+      function initMap() {
+        map = new google.maps.Map(document.getElementById('map'), {
+          zoom: 10.5,
+          center: {lat: 41.033, lng: -75.364},
+          mapTypeId: 'roadmap'
+        });
+		
+		// 1 star daycares
+        heatmap1 = new google.maps.visualization.HeatmapLayer({
+          data: getPoints1(),
+          map: map
+        });
+		
+		// 2 star daycares
+		heatmap2 = new google.maps.visualization.HeatmapLayer({
+          data: getPoints2(),
+          map: map
+        });
+		
+		// 3 star daycares
+		heatmap3 = new google.maps.visualization.HeatmapLayer({
+          data: getPoints3(),
+          map: map
+        });
+		
+		// 4 star daycares
+		heatmap4 = new google.maps.visualization.HeatmapLayer({
+          data: getPoints4(),
+          map: map
+        });
+		
+		var kmlLayer = new google.maps.KmlLayer(src, {
+          suppressInfoWindows: true,
+          preserveViewport: false,
+          map: map
+        });
+		heatmap4.set('gradient', heatmap4.get('gradient') ? null : gradient);
+		heatmap3.set('gradient', heatmap3.get('gradient') ? null : gradient3);
+		heatmap2.set('gradient', heatmap2.get('gradient') ? null : gradient2);
+      }
+		
+		var gradient = [
+			'rgba(0, 255, 255, 0)',
+			'rgba(0, 255, 255, 1)',
+			'rgba(0, 191, 255, 1)',
+			'rgba(0, 127, 255, 1)',
+			'rgba(0, 63, 255, 1)',
+			'rgba(0, 0, 255, 1)',
+			'rgba(0, 0, 223, 1)',
+			'rgba(0, 0, 191, 1)',
+			'rgba(0, 0, 159, 1)',
+			'rgba(0, 0, 127, 1)',
+			'rgba(63, 0, 91, 1)',
+			'rgba(127, 0, 63, 1)',
+			'rgba(191, 0, 31, 1)',
+			'rgba(255, 0, 0, 1)'
+        ]
+		var gradient2 = [
+			'rgba(255, 0, 255, 0)',
+			'rgba(255, 0, 255, 1)',
+			'rgba(191, 0, 255, 1)',
+			'rgba(127, 0, 255, 1)',
+			'rgba(63, 0, 255, 1)',
+			'rgba(0, 0, 255, 1)',
+			'rgba(0, 0, 223, 1)',
+			'rgba(0, 0, 191, 1)',
+			'rgba(0, 0, 159, 1)',
+			'rgba(0, 0, 127, 1)',
+			'rgba(63, 0, 91, 1)',
+			'rgba(127, 0, 63, 1)',
+			'rgba(191, 0, 31, 1)',
+			'rgba(255, 0, 0, 1)'
+		]
+		
+		var gradient3 = [
+			'rgba(255, 184, 43, 0)',
+			'rgba(252,76,2, 1)',
+			'rgba(252,76,2, 1)',
+			"rgba(244, 227, 0, 1)",
+			"rgba(249, 198, 0, 1)",
+			"rgba(255, 170, 0, 1)",
+			"rgba(255, 113, 0, 1)",
+			"rgba(255, 57, 0, 1)",
+			"rgba(255, 0, 0, 1)"
+		]
+      function toggleHeatmap1() {
+        heatmap1.setMap(heatmap1.getMap() ? null : map);
+      }
+	  function toggleHeatmap2() {
+        heatmap2.setMap(heatmap2.getMap() ? null : map);
+      }
+	  function toggleHeatmap3() {
+        heatmap3.setMap(heatmap3.getMap() ? null : map);
+      }
+	  function toggleHeatmap4() {
+        heatmap4.setMap(heatmap4.getMap() ? null : map);
+      }
+      function changeGradient() {
+        
+        heatmap1.set('gradient', heatmap1.get('gradient') ? null : gradient);
+		heatmap2.set('gradient', heatmap2.get('gradient') ? null : gradient2);
+		heatmap3.set('gradient', heatmap3.get('gradient') ? null : gradient3);
+		heatmap4.set('gradient', heatmap4.get('gradient') ? null : gradient4);
+      }
+	  var rad;
+		rad = 2;
+      function changeRadius() {
+	  
+		rad = rad + 1;
+		heatmap1.set('radius', rad*5);
+		heatmap2.set('radius', rad*5);
+		heatmap3.set('radius', rad*5);
+		heatmap4.set('radius', rad*5);
+		if (rad > 10) {
+			rad = 1;
+		}
+        //heatmap1.set('radius', heatmap1.get('radius') ? null : 20);
+      }
+      function changeOpacity() {
+        heatmap1.set('opacity', heatmap1.get('opacity') ? null : 0.2);
+		heatmap2.set('opacity', heatmap2.get('opacity') ? null : 0.2);
+		heatmap3.set('opacity', heatmap3.get('opacity') ? null : 0.2);
+		heatmap4.set('opacity', heatmap4.get('opacity') ? null : 0.2);
+      }
+      // 1 star
+	  function getPoints1() {
+        return [
+			new google.maps.LatLng(41.1828051,-75.2695393),
+			new google.maps.LatLng(41.0030039,-75.1510068),
+			new google.maps.LatLng(40.9251897,-75.3466772),
+			new google.maps.LatLng(41.1327995,-75.3632824),
+			new google.maps.LatLng(40.9983721,-75.1954504),
+			new google.maps.LatLng(41.1845925,-75.3560496),
+			new google.maps.LatLng(40.984117,-75.196715),
+			new google.maps.LatLng(41.101931,-75.313674),
+			new google.maps.LatLng(41.0566142,-75.2630138),
+			new google.maps.LatLng(41.2224652,-75.3468299),
+			new google.maps.LatLng(41.1241699,-75.3591629),
+			new google.maps.LatLng(40.9849536,-75.1986023),
+			new google.maps.LatLng(41.0549867,-75.0951969),
+			new google.maps.LatLng(41.1404545,-75.3606763),
+			new google.maps.LatLng(41.218707,-75.368216),
+			new google.maps.LatLng(40.8757925,-75.4568444),
+			new google.maps.LatLng(41.0049064,-75.1782729),
+			new google.maps.LatLng(41.0039477,-75.1893793),
+			new google.maps.LatLng(40.9248415,-75.3868468),
+			new google.maps.LatLng(40.9999224,-75.2475642),
+			new google.maps.LatLng(41.1380713,-75.2873932),
+			new google.maps.LatLng(41.010488,-75.184775),
+			new google.maps.LatLng(41.1019494,-75.4359881),
+			new google.maps.LatLng(40.9909996,-75.2387425),
+			new google.maps.LatLng(41.068681,-75.0452549),
+			new google.maps.LatLng(41.029405,-75.326737),
+			new google.maps.LatLng(41.1237866,-75.3429715),
+			new google.maps.LatLng(41.0043855,-75.1779765),
+			new google.maps.LatLng(40.9834711,-75.1951599),
+			new google.maps.LatLng(41.0423656,-75.1295546),
+			new google.maps.LatLng(41.0090991,-75.2877328),
+			new google.maps.LatLng(41.034092,-75.1391639),
+			new google.maps.LatLng(41.1704688,-75.2719838),
+			new google.maps.LatLng(41.1193297,-75.3800398),
+			new google.maps.LatLng(40.9643973,-75.2933509),
+			new google.maps.LatLng(41.009778,-75.476393),
+			new google.maps.LatLng(41.02925,-75.1624552),
+			new google.maps.LatLng(41.0954066,-75.3244285),
+			new google.maps.LatLng(41.0624741,-75.0703444),
+			new google.maps.LatLng(41.0343528,-75.3031146),
+			new google.maps.LatLng(41.1365621,-75.3607855),
+			new google.maps.LatLng(41.0070141,-75.1358042),
+			new google.maps.LatLng(40.977661,-75.400949),
+			new google.maps.LatLng(40.9766739,-75.2115662),
+			new google.maps.LatLng(40.9944803,-75.185249),
+			new google.maps.LatLng(41.0728197,-75.3246071),
+			new google.maps.LatLng(41.1085989,-75.406475),
+			new google.maps.LatLng(41.0169849,-75.2956266),
+			new google.maps.LatLng(41.004154,-75.143343),
+			new google.maps.LatLng(40.9266269,-75.403857)
+        ];
+      }
+	  // 2 star
+      function getPoints2() {
+        return [
+			new google.maps.LatLng(41.0297081,-75.1600778),
+			new google.maps.LatLng(41.1210183,-75.3566808),
+			new google.maps.LatLng(40.9080174,-75.3418612)
+        ];
+      }
+	  // 3 star
+      function getPoints3() {
+        return [
+			new google.maps.LatLng(40.9750802,-75.2437627),
+			new google.maps.LatLng(41.112399,-75.382798),
+			new google.maps.LatLng(40.9103171,-75.3452033),
+			new google.maps.LatLng(41.016665,-75.2077578),
+			new google.maps.LatLng(41.1063273,-75.4705143)
+        ];
+      }
+	  // 4 star
+      function getPoints4() {
+        return [
+			new google.maps.LatLng(41.1037034,-75.4887623),
+			new google.maps.LatLng(41.0317555,-75.3249697),
+			new google.maps.LatLng(41.1849818,-75.3571149),
+			new google.maps.LatLng(40.9236739,-75.4017854),
+			new google.maps.LatLng(41.086537,-75.0074562),
+			new google.maps.LatLng(41.014877,-75.186608),
+			new google.maps.LatLng(41.1721081,-75.4144124),
+			new google.maps.LatLng(41.1857685,-75.4295524),
+			new google.maps.LatLng(40.9970042,-75.1775826),
+			new google.maps.LatLng(40.9010347,-75.4948277),
+			new google.maps.LatLng(40.9119303,-75.4580842),
+			new google.maps.LatLng(41.0383272,-75.1233824)
+        ];
+      }
+    </script>
+    <script async defer
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBvWkIAgxH8TPyCLqEuGbGHNkYY3a6VB04&libraries=visualization&callback=initMap">
+    </script>
+  </body>
+</html>
